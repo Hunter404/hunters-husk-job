@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <override>
   <Character
-    specifiertags="true"
+    specifiertags="True"
     SpeciesName="Husk_player_prowler"
     SpeciesTranslationOverride="husk"
     DisplayName=""

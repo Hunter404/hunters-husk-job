@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <override>
   <Character
-    SpecifierTags="true"
+    SpecifierTags="True"
     SpeciesName="Husk_player"
     ForceSlowClimbing="False"
     SpeciesTranslationOverride="husk"
@@ -10,7 +10,7 @@
     Humanoid="True"
     HasInfo="True"
     CanInteract="True"
-    CanClimb="true"
+    CanClimb="True"
     Husk="False"
     UseHuskAppendage="False"
     NeedsWater="False"
