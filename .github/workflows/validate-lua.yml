@@ -1,0 +1,19 @@
+name: Validate Lua Scripts
+
+on:
+  push:
+    paths:
+      - '**/*.lua'
+  pull_request:
+    paths:
+      - '**/*.lua'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Luacheck linter
+        uses: lunarmodules/luacheck@v1
