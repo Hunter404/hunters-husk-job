@@ -13,7 +13,7 @@
     <sprite SourceRect="0,0,128,128" Origin="0.5,0.5" Depth="0.05" Texture="%ModDir%/Characters/Husk_heads.png" IgnoreTint="False" Color="255,255,255,255" DeadColor="255,255,255,255" DeadColorTime="0" />
     <!--Eating attack-->
     <attack StructureSoundType="StructureSlash" Context="Any" TargetType="Character" TargetLimbType="None" HitDetectionType="Distance" AfterAttack="Eat" AfterAttackDelay="0" AfterAttackSecondary="ReverseUntilCanAttack" AfterAttackSecondaryDelay="3" Reverse="False" SnapRopeOnNewAttack="True" Retreat="False" Range="125" DamageRange="100" MinRange="0" Duration="0.2" CoolDown="8" SecondaryCoolDown="4" CoolDownRandomFactor="0" FullSpeedAfterAttack="False" StructureDamage="0" CreateWallDamageProjectiles="False" EmitStructureDamageParticles="True" ItemDamage="0" Penetration="0" LevelWallDamage="0" Ranged="False" AvoidFriendlyFire="False" RequiredAngle="20" RequiredAngleToShoot="0" AimRotationTorque="0" RotationLimbIndex="-1" SwayAmount="0" SwayFrequency="5" Stun="0" OnlyHumans="False" ApplyForceOnLimbs="0, 1, 15, 35, 37, 39, 41" Force="15" RootForceWorldStart="0,0" RootForceWorldMiddle="0,0" RootForceWorldEnd="0,0" RootTransitionEasing="Linear" Torque="0" ApplyForcesOnlyOnce="False" TargetImpulse="10" TargetImpulseWorld="0,0" TargetForce="0" TargetForceWorld="0,0" SubmarineImpactMultiplier="1" SeverLimbsProbability="0" Priority="10" Blink="True">
-      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="True">
         <sound File="Content/Characters/Husk_chimera/HUSKchimera_Attack1.ogg" Range="1000" Volume="1" selectionmode="All" />
         <sound File="Content/Characters/Husk_chimera/HUSKchimera_eatingAttack.ogg" Range="2000" Volume="1" />
       </StatusEffect>
@@ -172,7 +172,7 @@
     <sprite SourceRect="0,74,107,99" Origin="0.5,0.5" Depth="0.1" Texture="" IgnoreTint="False" Color="255,255,255,255" DeadColor="255,255,255,255" DeadColorTime="0" />
     <!--Secondary ovipositor attack-->
     <attack StructureSoundType="StructureBlunt" Context="Any" TargetType="Any" TargetLimbType="None" HitDetectionType="Distance" AfterAttack="FollowThrough" AfterAttackDelay="0" AfterAttackSecondary="FallBack" AfterAttackSecondaryDelay="0" Reverse="False" SnapRopeOnNewAttack="True" Retreat="False" Range="50" DamageRange="50" MinRange="0" Duration="0.25" CoolDown="3" SecondaryCoolDown="0" CoolDownRandomFactor="0.1" FullSpeedAfterAttack="False" StructureDamage="10" CreateWallDamageProjectiles="False" EmitStructureDamageParticles="True" ItemDamage="5" Penetration="0" LevelWallDamage="0" Ranged="False" AvoidFriendlyFire="False" RequiredAngle="20" RequiredAngleToShoot="0" AimRotationTorque="0" RotationLimbIndex="-1" SwayAmount="0" SwayFrequency="5" Stun="0" OnlyHumans="False" ApplyForceOnLimbs="0, 1, 35, 37, 39, 41" Force="5" RootForceWorldStart="0,0" RootForceWorldMiddle="0,0" RootForceWorldEnd="0,0" RootTransitionEasing="Linear" Torque="0" ApplyForcesOnlyOnce="False" TargetImpulse="10" TargetImpulseWorld="0,0" TargetForce="0" TargetForceWorld="0,0" SubmarineImpactMultiplier="1" SeverLimbsProbability="0" Priority="0" Blink="True">
-      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="True">
         <ReduceAffliction type="damage" strength="10" />
       </StatusEffect>
       <Affliction Strength="10" Identifier="bitewounds" Probability="1" DivideByLimbCount="True" MultiplyByMaxVitality="False" />

@@ -18,7 +18,7 @@
     <damagemodifier DamageSound="MetalImpact" DamageParticle="" DamageMultiplier="0.25" ProbabilityMultiplier="1" ArmorSector="0,360" DeflectProjectiles="True" AfflictionIdentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,explosiondamage" />
     <damagemodifier DamageSound="MetalImpact" DamageParticle="" DamageMultiplier="0.5" ProbabilityMultiplier="1" ArmorSector="0,360" DeflectProjectiles="True" AfflictionIdentifiers="" AfflictionTypes="burn" />
     <damagemodifier DamageSound="MetalImpact" DamageParticle="" DamageMultiplier="0" ProbabilityMultiplier="1" ArmorSector="0,360" DeflectProjectiles="True" AfflictionIdentifiers="" AfflictionTypes="bleeding" />
-    <lightsource castshadows="true" Color="100,25,25,255" Range="400" Scale="1" Offset="-40,-50" Rotation="0" Flicker="1" FlickerSpeed="0.2" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">
+    <lightsource castshadows="True" Color="100,25,25,255" Range="400" Scale="1" Offset="-40,-50" Rotation="0" Flicker="1" FlickerSpeed="0.2" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">
       <lighttexture texture="Content/Lights/divinghelmetlight.png" Origin="0.05, 0.5" Size="1.0,1.0" alpha="0.75" />
     </lightsource>
   </limb>
@@ -26,7 +26,7 @@
     <sprite SourceRect="314,185,66,67" Origin="0.5,0.5" Depth="0.05"  Texture="%ModDir%/Characters/Husk_heads.png" IgnoreTint="False" Color="255,255,255,255" DeadColor="255,255,255,255" DeadColorTime="0" />
     <!-- Ovipositor attack -->
     <attack stickchance="0" StructureSoundType="StructureBlunt" Context="Any" TargetType="Character" TargetLimbType="None" HitDetectionType="Distance" AfterAttack="FollowThrough" AfterAttackDelay="0" AfterAttackSecondary="FallBack" AfterAttackSecondaryDelay="0" Reverse="False" SnapRopeOnNewAttack="True" Retreat="False" Range="75" DamageRange="75" MinRange="0" Duration="0.25" CoolDown="2" SecondaryCoolDown="0" CoolDownRandomFactor="0.1" FullSpeedAfterAttack="False" StructureDamage="20" CreateWallDamageProjectiles="False" EmitStructureDamageParticles="True" ItemDamage="20" Penetration="0" LevelWallDamage="0" Ranged="False" AvoidFriendlyFire="False" RequiredAngle="20" RequiredAngleToShoot="0" AimRotationTorque="0" RotationLimbIndex="-1" SwayAmount="0" SwayFrequency="5" Stun="0" OnlyHumans="False" ApplyForceOnLimbs="0, 3, 5, 16, 18, 20, 22, 24, 26, 28" Force="5" RootForceWorldStart="0,0" RootForceWorldMiddle="0,0" RootForceWorldEnd="0,0" RootTransitionEasing="Linear" Torque="0" ApplyForcesOnlyOnce="False" TargetImpulse="10" TargetImpulseWorld="0,0" TargetForce="0" TargetForceWorld="0,0" SubmarineImpactMultiplier="1" SeverLimbsProbability="0" Priority="0" Blink="True">
-      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="True">
         <ReduceAffliction type="damage" strength="10" />
       </StatusEffect>
       <Affliction Strength="15" Identifier="bitewounds" Probability="1" DivideByLimbCount="True" MultiplyByMaxVitality="False" />
