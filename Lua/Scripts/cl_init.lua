@@ -44,7 +44,6 @@ handleNetOperation("husk_addToCrew", Entity.FindEntityByID, HH.AddToCrew)
 handleNetOperation("husk_removeFromCrew", findCharacterInfoByID, HH.RemoveFromCrew)
 
 local transformCounter = 0
-local transformCooldown = 60
 local nextTransformAt = 0
 
 local function CheckTransformToProwler(character, deltaTime)
@@ -74,14 +73,13 @@ local function CheckTransformToProwler(character, deltaTime)
         return
     end
 
-    nextTransformAt = Timer.GetTime() + transformCooldown
+    nextTransformAt = Timer.GetTime() + HH.Config.TransformCooldown
 
     HH:HuskTransform()
 
 end
 
 local jumpCounter = 0
-local jumpCooldown = 1
 local nextJumpAt = 0
 
 function CheckHuskJump(character, deltaTime)
@@ -120,7 +118,7 @@ function CheckHuskJump(character, deltaTime)
         return
     end
 
-    nextJumpAt = Timer.GetTime() + jumpCooldown
+    nextJumpAt = Timer.GetTime() + HH.Config.JumpCooldown
 
     HH:HuskJump(character)
 

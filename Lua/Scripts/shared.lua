@@ -110,6 +110,10 @@ HH.Jobs = {
         SpeciesName = "Husk_player",
     }
 }
+HH.Config = {
+    TransformCooldown = 5,
+    JumpCooldown = 1,
+}
 
 function HH:IsServer()
     return SERVER or not Game.IsMultiplayer
@@ -278,7 +282,7 @@ function HH:HuskTransform(client)
             return
         end
 
-        HH:SetNextTransformAt(character, 60)
+        HH:SetNextTransformAt(character, HH.Config.TransformCooldown)
 
     elseif CLIENT then
 
