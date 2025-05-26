@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Hunter's Husk Job" modversion="1.0.48" corepackage="False" steamworkshopid="3384404945" gameversion="1.7.7.0">
+  <Jobs file="%ModDir%/Job/Jobs.xml" />
+  <TalentTrees file="%ModDir%/Job/TalentTrees.xml" />
+  <Afflictions file="%ModDir%/Job/TalentAfflictions.xml" />
+  <Talents file="%ModDir%/Job/Talents.xml" />
+  <Character file="%ModDir%/Characters/Husk_player/Husk_player.xml" />
+  <Character file="%ModDir%/Characters/Husk_player_exosuit/Husk_player_exosuit.xml" />
+  <Character file="%ModDir%/Characters/Husk_player_prowler/Husk_player_prowler.xml" />
+  <Character file="%ModDir%/Characters/Husk_player_chimera/Husk_player_chimera.xml" />
+  <Item file="%ModDir%/Items/Huskitems.xml" />
+  <Text file="%ModDir%/Language/BrazilianPortuguese/BrazilianPortuguese.xml" />
+  <Text file="%ModDir%/Language/CastilianSpanish/CastilianSpanish.xml" />
+  <Text file="%ModDir%/Language/English/English.xml" />
+  <Text file="%ModDir%/Language/French/French.xml" />
+  <Text file="%ModDir%/Language/German/German.xml" />
+  <Text file="%ModDir%/Language/Japanese/Japanese.xml" />
+  <Text file="%ModDir%/Language/Korean/Korean.xml" />
+  <Text file="%ModDir%/Language/LatinamericanSpanish/LatinamericanSpanish.xml" />
+  <Text file="%ModDir%/Language/Polish/Polish.xml" />
+  <Text file="%ModDir%/Language/Russian/Russian.xml" />
+  <Text file="%ModDir%/Language/SimplifiedChinese/SimplifiedChinese.xml" />
+  <Text file="%ModDir%/Language/TraditionalChinese/TraditionalChinese.xml" />
+  <NPCConversations file="%ModDir%/Language/HHConversations_English.xml" />
+</contentpackage>

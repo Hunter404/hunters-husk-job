@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="French" nowhitespace="false" translatedname="French">
+  <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>Un cadavre en décomposition coincé dans un ancien costume de plongeur, il a dérivé dans l'airlock et n'a jamais daigné partir. Personne ne sait ce qu'il veut - s'il veut même quelque chose. Il erre dans les couloirs, parfois en convulsant, parfois bavant un fluide sombre et visqueux qui sent légèrement la saumure. Certains disent qu'il cliquette doucement la nuit, un son creux qui rattache les cloisons. Quoi qu'il était autrefois, maintenant c'est autre chose, et il a décidé de rester.</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>Symbiose</talentname.symbiosis>
+  <talentdescription.symbiosis>Lorsqu'il est près d'amis, il gagne [stun]% de résistance aux étourdissements et à la résistance aux dégâts. Chaque fois que vous guérissez un allié, vous vous guérissez également de [healing]% de ce montant.</talentdescription.symbiosis>
+  <talentname.feelsweirdman>Sécrétion merveilleuse</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>Lorsqu'il est près d'amis, il gagne [bleedResistance]% de résistance aux saignements et réduit la durée des blessures saignantes de [bleedWound]%.</talentdescription.feelsweirdman>
+  <talentname.bestfriends>Meilleurs amis pour toujours</talentname.bestfriends>
+  <talentdescription.bestfriends1>Lorsqu'il est près d'amis, il gagne [burn]% de résistance aux brûlures et à l'acide, plus [psychosis]% de résistance à la psychose.</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>Mordre des alliés qui ne sont pas déjà infectés les guérit de [heal].</talentdescription.bestfriends2>
+  <talentname.lackofheart>Manque de cœur</talentname.lackofheart>
+  <talentdescription.lackofheart1>Lorsqu'il est près d'alliés, il consomme [oxygen]% moins d'oxygène.</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items] peut guérir toute blessure de membre pour [heal]. Cet effet est triplé sur les alliés sans infection Husk.</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>Débloquez [item] qui peut être utilisé toutes les 5 minutes pour extraire [egg].</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>Sécrétion de courant</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>Lorsqu'il est près d'alliés, tout le monde gagne [speed]% de vitesse de nage.</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>Lorsque vous êtes seul dans l'eau, vous subissez [damage]% de dégâts supplémentaires.</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>Gardien</talentname.guardianangel>
+  <talentdescription.guardianangel>Lorsque vous subissez des dégâts, tous les alliés proches subissent [damage]% de dégâts en moins pendant [duration] secondes.</talentdescription.guardianangel>
+  <talentname.overcooked>Trop cuit</talentname.overcooked>
+  <talentdescription.overcooked>Gagnez une réduction de [damage]% sur tous les dégâts.</talentdescription.overcooked>
+  <talentname.refeeding>Re-alimentation</talentname.refeeding>
+  <talentdescription.refeeding>Mordre des ennemis vous guérit de [healing]% de plus et inflige [damage]% de plus de dégâts à eux.</talentdescription.refeeding>
+  <talentname.rupturedskin>Peau déchirée</talentname.rupturedskin>
+  <talentdescription.rupturedskin>Lorsque vous subissez des dégâts de mêlée, vous avez une chance de [chance]% de faire saigner l'attaquant pour [bleed].</talentdescription.rupturedskin>
+  <talentname.toxiceggs>Oeufs toxiques</talentname.toxiceggs>
+  <talentdescription.toxiceggs>Mordre des ennemis inflige [acidDamage] de dégâts acides et [bleedDamage] de dégâts de saignement. Augmente votre dégâts de morsure de [damage]%.</talentdescription.toxiceggs>
+  <talentname.toxicstingers>Piques toxiques</talentname.toxicstingers>
+  <talentdescription.toxicstingers>Utiliser [item] fait en sorte que la cible subisse [acidDamage] de dégâts acides et [bleedDamage] de dégâts de saignement. Augmente les dégâts de [item] de [damage]%.</talentdescription.toxicstingers>
+  <talentname.pheromones>Phéromones</talentname.pheromones>
+  <talentdescription.pheromones>Tous les husks sauvages perçoivent tout le monde dans votre proximité immédiate, y compris vous, comme un autre husk.</talentdescription.pheromones>
+  <talentname.carnophage>Carnophage armé</talentname.carnophage>
+  <talentdescription.carnophage>Gagnez [healing]% de santé chaque fois que vous utilisez des armes de mêlée.</talentdescription.carnophage>
+  <talentname.weldedfibers>Intégration de neuro-chair</talentname.weldedfibers>
+  <talentdescription.weldedfibers>Augmente la vitesse de réparation mécanique et électrique de [speed]% et booste les compétences associées de [skill].</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>Carapace articulée</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>Ajoute une chance de [chance]% de dévier les dégâts entrants.</talentdescription.hingedcarapace>
+  <talentname.moldedhide>Peau moulée</talentname.moldedhide>
+  <talentdescription.moldedhide>Ajoute [damage]% de réduction des dégâts contre les blessures par balle.</talentdescription.moldedhide>
+  <talentname.metallinedveins>Veines tapissées de métal</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>La chair méca répare :</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item] guérit maintenant un membre pour [heal].</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item] guérit maintenant un membre pour [heal].</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item] guérit maintenant un membre pour [heal].</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>Muscles bioélastiques</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>Lorsque vous attaquez un ennemi au corps à corps avec une santé complète, vous infligez [damage]% de dégâts supplémentaires.</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>Exosquelette</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>La chair est faible. Entrez dans un exosquelette pour atteindre une méca-morphose complète.</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>Membres écrasants</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>Sous l'effet des stéroïdes, vos membres surdimensionnés ont une chance de [chance]% d'étourdir les ennemis que vous frappez avec des attaques de mêlée.</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>Posture sauvage</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>Entrez dans une rage sauvage pendant [duration] secondes lorsque vous subissez des dégâts. Gagnez [damageReduction]% de réduction des dégâts et [stunResistance]% de résistance aux étourdissements, mais votre vitesse de mouvement est réduite de [speedPenalty]%.</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>Plating en os moulé</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>Gagnez une chance de [deflectionChance]% de dévier les balles et les attaques de mêlée.</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>Husk chitineux</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>Réduit les dégâts de saignement et de brûlure entrants de [reduction]%.</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>Pouvoir de la tombe</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>Lorsque votre santé tombe en dessous de [threshold]%, gagnez une poussée de force, augmentant vos dégâts de mêlée de [damage]%.</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>Visage horrible</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>Votre apparence terrifiante réduit la vitesse d'attaque d'un monstre de [reducedAttackSpeed]% pendant 5 secondes après l'avoir frappé au corps à corps.</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>Abomination</talentname.chimera_transform>
+  <talentdescription.chimera_transform>La chair est une domination totale. Empruntez le corps d'un ami et injectez-lui le slug husk pour compléter cette transformation.</talentdescription.chimera_transform>
+  <talentname.prowler_transform>En maraude</talentname.prowler_transform>
+  <talentdescription.prowler_transform>En vous laissant tomber pendant 10 secondes, vous vous transformez en maraudeur ou revenez à husk. Vous pouvez le faire une fois toutes les 60 secondes.</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>Démon de la vitesse</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>Votre vitesse de base est réduite de [reducedSpeed]%. Lorsque vous êtes sous hyperzine, votre vitesse de sprint est considérablement augmentée de [speed]%.</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>Flexion des tendons</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>Vos membres flexibles accordent une vitesse de sprint augmentée de [speed]%.</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>Hydrodynamique</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>Vitesse de nage augmentée de [speed]%.</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>Griffes dentelées</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>Vos griffes causent des blessures profondes. Les attaques de mêlée appliquent un effet de saignement de [bleed].</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>Bras musclés</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>Sous l'effet des stéroïdes, vos dégâts de morsure sont augmentés de [damage]%.</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>Fin de la ligne</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>Ne choisissez pas cette compétence, vous serez tué et perdrez un point de compétence.</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>Limace Husk</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug>Une masse grotesque de goo pulsant, à quoi cela sert-il ?</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Outil extracteur de calyx de Velonaceps</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>Un outil médiéval pour extraire des œufs d'un husk amical vivant. Pourrait être mortel s'il est abusé.</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Outil extracteur de calyx de Velonaceps (Recycler)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>Un outil médiéval pour extraire des œufs d'un husk amical vivant. Pourrait être mortel s'il est abusé.</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>Slime collant</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>Une couche de slime étrange et collante recouvre votre peau. C'est chaud, caoutchouteux, et ça ne s'effacera pas. Vous vous sentez étrangement renforcé sous son étreinte visqueuse, mais votre estomac se retourne à la pensée de ce dont il est fait.</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>Goreseal qui suinte</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>Vos blessures sont réparées par une matière filandreuse et coagulée qui sent légèrement l'algue en décomposition. Cela vous scelle, oui, mais à quel prix ? La pensée de chair étrangère fusionnée avec la vôtre est troublante.</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>Confort coagulé</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>Un film visqueux se répand sur votre combinaison et votre peau, offrant un léger répit contre l'acide, les brûlures et la folie. Pourtant, le film protecteur se tord subtilement, comme s'il était vivant. Le confort semble creux, comme si vous étiez complice de quelque chose d'indicible.</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>Souffle pâle</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>Un râle étouffé hante vos oreilles lorsque vous inspirez. L'air est étrangement dense, mais plus facile à respirer. Un frisson s'infiltre dans vos poumons, comme si quelque chose d'autre respirait à travers vous, vous aidant à persister... mais pourquoi ?</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>Tentacules glissants</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>Vos mouvements deviennent étrangement fluides, comme si des tentacules huileux guidaient vos membres. C'est comme si une membrane foulée couvrait vos articulations, facilitant votre mouvement tout en vous rappelant que vous ne bougez pas seul.</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>Chuchotement de bouclier de viande</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>Quelque chose pulse sous votre peau lorsque le danger frappe. Vous endurez les coups plus facilement, mais la sensation de chair tirant et pulsant qui n'est pas la vôtre vous remplit d'une gratitude tordue et d'une nausée persistante.</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>Œufs extraits</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>Quelqu'un a extrait vos œufs de force, vous aurez besoin de temps pour régénérer ou risquer de mourir.</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>

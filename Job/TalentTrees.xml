@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+  <TalentTree jobidentifier="PlayerHuskJob">
+    <SubTree identifier="PHTree" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="5">
+        <TalentOption identifier="guardianangel" />
+        <TalentOption identifier="feelsweirdman" />
+        <TalentOption identifier="bestfriends" />
+        <TalentOption identifier="lackofheart" />
+        <TalentOption identifier="toxiceggs" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="2" maxchosentalents="7">
+        <TalentOption identifier="symbiosis" />
+        <TalentOption identifier="overcooked" />
+        <TalentOption identifier="refeeding" />
+        <TalentOption identifier="rupturedskin" />
+        <TalentOption identifier="toxicstingers" />
+        <TalentOption identifier="slipstreamsecretion" />
+        <TalentOption identifier="pheromones" />
+      </TalentOptions>
+    </SubTree>
+
+    <SubTree identifier="exosuit" type="specialization" requires="PHTree" blocks="chimera,prowler">
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="weldedfibers" />
+        <TalentOption identifier="carnophage" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="hingedcarapace" />
+        <TalentOption identifier="moldedhide" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <!--<TalentOption identifier="metallinedveins" />-->
+        <TalentOption identifier="bioelasticmuscles" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="exosuit_transform" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="EndOfTheLine" />
+      </TalentOptions>
+    </SubTree>
+
+    <SubTree identifier="chimera" type="specialization" requires="PHTree" blocks="exosuit,prowler">
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="chimera_crushinglimbs" />
+        <TalentOption identifier="chimera_feralstance" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="chimera_bonemoldedplating" />
+        <TalentOption identifier="chimera_chitinoushusk" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="chimera_gravemight" />
+        <TalentOption identifier="chimera_horridvisage" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="chimera_transform" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="EndOfTheLine" />
+      </TalentOptions>
+    </SubTree>
+
+    <SubTree identifier="prowler" type="specialization" requires="PHTree" blocks="chimera,exosuit">
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="prowler_transform" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="prowler_speeddemon" />
+        <TalentOption identifier="prowler_tendonflex" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="prowler_hydrodynamics" />
+      </TalentOptions>
+
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="prowler_serratedclaws" />
+        <TalentOption identifier="prowler_swolearms" />
+      </TalentOptions>
+      
+      <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOption identifier="EndOfTheLine" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>

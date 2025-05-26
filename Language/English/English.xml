@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>A rotting corpse stuffed into an ancient diver's suit, it drifted in through the airlock and never bothered to leave. No one knows what it wants—if it even wants anything at all. It lingers in the corridors, occasionally twitching, occasionally drooling a dark, viscous fluid that smells faintly of brine. Some say it clicks softly at night, a hollow sound that rattles the bulkheads. Whatever it once was, now it’s something else, and it’s decided to stay.</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>Symbiosis</talentname.symbiosis>
+  <talentdescription.symbiosis>While near friends, they gain [stun]% stun resistance and damage resistance. Whenever you heal an ally, you also heal yourself for [healing]% of that amount.</talentdescription.symbiosis>
+  <talentname.feelsweirdman>Wounderful secretion</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>While near friends, they gain [bleedResistance]% bleed resistance and reduce bleeding wound duration by [bleedWound]%.</talentdescription.feelsweirdman>
+  <talentname.bestfriends>Best friends forever</talentname.bestfriends>
+  <talentdescription.bestfriends1>While near friends, they gain [burn]% burn and acid resistance, plus [psychosis]% psychosis resistance.</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>Biting allies who are not already infected heals them for [heal].</talentdescription.bestfriends2>
+  <talentname.lackofheart>Lack of heart</talentname.lackofheart>
+  <talentdescription.lackofheart1>While near allies, they consume [oxygen]% less oxygen.</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items] can heal any limb injury for [heal]. This effect is tripled on allies without Husk infection.</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>Unlock [item] that can be used every 5 minutes to extract [egg].</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>Slipstream secretion</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>While near allies, everyone gains [speed]% swim speed.</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>When alone in water, you take [damage]% more damage.</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>Guardian</talentname.guardianangel>
+  <talentdescription.guardianangel>When you take damage, all nearby allies take [damage]% less damage for [duration] seconds.</talentdescription.guardianangel>
+  <talentname.overcooked>Overcooked</talentname.overcooked>
+  <talentdescription.overcooked>Gain a [damage]% reduction to all damage.</talentdescription.overcooked>
+  <talentname.refeeding>Refeeding</talentname.refeeding>
+  <talentdescription.refeeding>Biting enemies heals you [healing]% more and deals [damage]% more damage to them.</talentdescription.refeeding>
+  <talentname.rupturedskin>Ruptured skin</talentname.rupturedskin>
+  <talentdescription.rupturedskin>When you take melee damage, you have a [chance]% chance to make the attacker bleed for [bleed].</talentdescription.rupturedskin>
+  <talentname.toxiceggs>Toxic eggs</talentname.toxiceggs>
+  <talentdescription.toxiceggs>Biting enemies deals [acidDamage] acid damage and [bleedDamage] bleed damage. Increases your bite damage by [damage]%.</talentdescription.toxiceggs>
+  <talentname.toxicstingers>Toxic Stingers</talentname.toxicstingers>
+  <talentdescription.toxicstingers>Using [item] causes the target to take [acidDamage] acid damage and [bleedDamage] bleed damage. Increases [item] damage by [damage]%.</talentdescription.toxicstingers>
+  <talentname.pheromones>Pheromones</talentname.pheromones>
+  <talentdescription.pheromones>All feral husks perceive everyone in your close proximity, including you, as a fellow husk.</talentdescription.pheromones>
+  <talentname.carnophage>Armed carnophage</talentname.carnophage>
+  <talentdescription.carnophage>Gain [healing]% health whenever you use melee weapons.</talentdescription.carnophage>
+  <talentname.weldedfibers>Neuro-Flesh Integration</talentname.weldedfibers>
+  <talentdescription.weldedfibers>Increases mechanical and electrical repair speed by [speed]% and boosts related skills by [skill].</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>Hinged carapace</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>Adds a [chance]% chance to deflect incoming damage.</talentdescription.hingedcarapace>
+  <talentname.moldedhide>Molded Hide</talentname.moldedhide>
+  <talentdescription.moldedhide>Adds [damage]% damage reduction against gunshot wounds.</talentdescription.moldedhide>
+  <talentname.metallinedveins>Metal lined veins</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>The mecha-flesh repairs:</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item] now heals a limb for [heal].</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item] now heals a limb for [heal].</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item] now heals a limb for [heal].</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>Bioelastic Muscles</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>When you melee-attack an enemy at full health, you deal [damage]% additional damage.</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>Exosuit</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>The flesh is weak. Enter an Exosuit to achieve full mecha-morphosis.</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>Crushing Limbs</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>When under the effect of steroids, your oversized limbs have a [chance]% chance to stun enemies you hit with melee attacks.</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>Feral Stance</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>Enter a feral rage for [duration] seconds when you take damage. Gain [damageReduction]% damage reduction and [stunResistance]% stun resistance, but your movement speed is reduced by [speedPenalty]%.</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>Bonemolded Plating</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>Gain a [deflectionChance]% chance to deflect bullets and melee attacks.</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>Chitinous Husk</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>Reduce incoming bleed and burn damage by [reduction]%.</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>Grave Might</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>When your health drops below [threshold]%, gain a burst of strength, increasing your melee damage by [damage]%.</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>Horrid Visage</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>,Your terrifying appearance reduces a monster's attack speed by [reducedAttackSpeed]% for 5 seconds after you hit it with melee.</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>Abomination</talentname.chimera_transform>
+  <talentdescription.chimera_transform>,The flesh is total domination. Borrow a friend's body and inject them with the husk-slug to complete this transformation.</talentdescription.chimera_transform>
+  <talentname.prowler_transform>On the prowl</talentname.prowler_transform>
+  <talentdescription.prowler_transform>By ragdolling for 10 seconds, you morph into a prowler or revert to husk. You can do this once every 60 seconds.</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>Speed demon</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>Your base speed is reduced by [reducedSpeed]%. When on hyperzine, your sprint speed is greatly increased by [speed]%.</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>Tendon Flex</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>Your limber limbs grant [speed]% increased sprint speed.</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>Hydrodynamics</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>Swimming speed increased by [speed]%.</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>Serrated Claws</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>Your claws cause deep wounds. Melee applies a bleed effect of [bleed].</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>Swole Arms</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>When under the effect of steroids, your bite damage is increased by [damage]%.</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>End of the line</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>Do not pick this skill, you will be killed and lose a skillpoint.</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>Husk slug</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug>A grotesque mass of pulsating goop, what is it for?</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Velonaceps calyx extractor tool</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>A medieval tool for extracting eggs from a live friendly husk. Could be lethal if abused.</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Velonaceps calyx extractor tool (Recycle)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>A medieval tool for extracting eggs from a live friendly husk. Could be lethal if abused.</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>Clinging Slime</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>A layer of strange, clingy ooze coats your skin. It's warm, rubbery, and it won't wipe off. You feel oddly bolstered beneath its slimy embrace, but your stomach turns at the thought of what it's made from.</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>Seeping Goreseal</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>Your wounds are patched by some stringy, congealed matter that smells faintly of rotting kelp. It's sealing you up, yes, but at what cost? The thought of foreign flesh melded with yours is unsettling.</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>Clotted Comfort</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>A viscous film spreads across your suit and skin, giving a slight reprieve from acid, burns, and madness. Yet, the protective film writhes subtly, as if alive. The comfort feels hollow, as if you're complicit in something unspeakable.</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>Pale Breath</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>A muffled rasp haunts your ears as you inhale. The air is oddly dense, but easier to breathe. A chill seeps into your lungs, as though something else is breathing through you, helping you persist… but why?</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>Slick Tendrils</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>Your movements become strangely fluid, as if oily tendrils guide your limbs. It's as if some foul membrane coats your joints, easing your motion while reminding you that you're not moving alone.</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>,Meatshield's Whisper</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>Something pulses beneath your skin when danger strikes. You endure blows more easily, yet the sensation of tugging, throbbing flesh that isn't yours fills you with a twisted gratitude and lingering nausea.</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>Extracted eggs</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>Someone has forcibly extracted your eggs, you will need time to regenerate or risk dying.</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>

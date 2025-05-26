@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="German" nowhitespace="false" translatedname="German">
+  <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>Ein verrottender Leichnam, der in einen alten Taucheranzug gestopft ist, schwebte durch die Luftschleuse und ließ sich nie wieder blicken. Niemand weiß, was es will – falls es überhaupt etwas will. Es verweilt in den Gängen, zuckt gelegentlich, sabbert hin und wieder eine dunkle, zähflüssige Flüssigkeit, die schwach nach Salzwasser riecht. Einige sagen, es klickt nachts leise, ein hohler Klang, der die Bulkheads erschüttert. Was es einmal war, ist jetzt etwas anderes, und es hat beschlossen zu bleiben.</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>Symbiose</talentname.symbiosis>
+  <talentdescription.symbiosis>In der Nähe von Freunden erhalten sie [stun]% Stun-Resistenz und Schadenresistenz. Immer wenn du einen Verbündeten heilst, heilst du auch dich selbst für [healing]% dieses Betrags.</talentdescription.symbiosis>
+  <talentname.feelsweirdman>Wunderbare Sekretion</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>In der Nähe von Freunden erhalten sie [bleedResistance]% Blutungsresistenz und reduzieren die Dauer von Blutungswunden um [bleedWound]%.</talentdescription.feelsweirdman>
+  <talentname.bestfriends>Beste Freunde für immer</talentname.bestfriends>
+  <talentdescription.bestfriends1>In der Nähe von Freunden erhalten sie [burn]% Brand- und Säureresistenz sowie [psychosis]% Psychosenresistenz.</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>Das Beißen von Verbündeten, die noch nicht infiziert sind, heilt sie um [heal].</talentdescription.bestfriends2>
+  <talentname.lackofheart>Mangel an Herz</talentname.lackofheart>
+  <talentdescription.lackofheart1>In der Nähe von Verbündeten verbrauchen sie [oxygen]% weniger Sauerstoff.</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items] können jede Gliedverletzung um [heal] heilen. Dieser Effekt wird bei Verbündeten ohne Husk-Infektion verdreifacht.</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>Schalte [item] frei, das alle 5 Minuten verwendet werden kann, um [egg] zu extrahieren.</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>Slipstream-Sekretion</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>In der Nähe von Verbündeten erhält jeder [speed]% Schwimmgeschwindigkeit.</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>Wenn du allein im Wasser bist, nimmst du [damage]% mehr Schaden.</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>Wächter</talentname.guardianangel>
+  <talentdescription.guardianangel>Wenn du Schaden nimmst, nehmen alle nahegelegenen Verbündeten [damage]% weniger Schaden für [duration] Sekunden.</talentdescription.guardianangel>
+  <talentname.overcooked>Überkocht</talentname.overcooked>
+  <talentdescription.overcooked>Erhalte eine Reduzierung von [damage]% auf allen Schaden.</talentdescription.overcooked>
+  <talentname.refeeding>Wiederernährung</talentname.refeeding>
+  <talentdescription.refeeding>Das Beißen von Feinden heilt dich um [healing]% mehr und verursacht [damage]% mehr Schaden bei ihnen.</talentdescription.refeeding>
+  <talentname.rupturedskin>Gerissene Haut</talentname.rupturedskin>
+  <talentdescription.rupturedskin>Wenn du Nahkampfschaden nimmst, hast du eine [chance]% Chance, den Angreifer zum Bluten zu bringen für [bleed].</talentdescription.rupturedskin>
+  <talentname.toxiceggs>Toxische Eier</talentname.toxiceggs>
+  <talentdescription.toxiceggs>Das Beißen von Feinden verursacht [acidDamage] Säureschaden und [bleedDamage] Blutungsschaden. Erhöht deinen Bissschaden um [damage]%</talentdescription.toxiceggs>
+  <talentname.toxicstingers>Toxische Stachel</talentname.toxicstingers>
+  <talentdescription.toxicstingers>Die Verwendung von [item] verursacht, dass das Ziel [acidDamage] Säureschaden und [bleedDamage] Blutungsschaden erleidet. Erhöht den Schaden von [item] um [damage]%.</talentdescription.toxicstingers>
+  <talentname.pheromones>Pheromone</talentname.pheromones>
+  <talentdescription.pheromones>Alle wilden Huskys nehmen jeden in deiner Nähe, einschließlich dir, als einen Mit-Husk wahr.</talentdescription.pheromones>
+  <talentname.carnophage>Bewaffneter Carnophage</talentname.carnophage>
+  <talentdescription.carnophage>Erhalte [healing]% Gesundheit, wann immer du Nahkampfwaffen benutzt.</talentdescription.carnophage>
+  <talentname.weldedfibers>Neuro-Fleisch-Integration</talentname.weldedfibers>
+  <talentdescription.weldedfibers>Erhöht die Geschwindigkeit der mechanischen und elektrischen Reparatur um [speed]% und steigert verwandte Fähigkeiten um [skill].</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>Gelenkige Panzerung</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>Fügt eine [chance]% Chance hinzu, eingehenden Schaden abzulenken.</talentdescription.hingedcarapace>
+  <talentname.moldedhide>Geformte Haut</talentname.moldedhide>
+  <talentdescription.moldedhide>Fügt [damage]% Schadensreduktion gegen Schusswunden hinzu.</talentdescription.moldedhide>
+  <talentname.metallinedveins>Metallbeschichtete Venen</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>Das Mecha-Fleisch repariert:</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item] heilt jetzt ein Glied um [heal].</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item] heilt jetzt ein Glied um [heal].</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item] heilt jetzt ein Glied um [heal].</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>Bioelastische Muskeln</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>Wenn du einen Feind bei voller Gesundheit mit Nahkampf angreifst, verursachst du [damage]% zusätzlichen Schaden.</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>Exosuit</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>Das Fleisch ist schwach. Betritt einen Exosuit, um eine vollständige Mecha-Morphose zu erreichen.</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>Zerschmetternde Gliedmaßen</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>Wenn du unter dem Einfluss von Steroiden stehst, haben deine übergroßen Gliedmaßen eine [chance]% Chance, Feinde, die du mit Nahkampfangriffen triffst, zu betäuben.</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>Wilde Haltung</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>Geh in eine wilde Wut für [duration] Sekunden, wenn du Schaden nimmst. Erhalte [damageReduction]% Schadensreduktion und [stunResistance]% Stun-Resistenz, aber deine Bewegungsgeschwindigkeit wird um [speedPenalty]% reduziert.</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>Knochengeformte Platten</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>Erhalte eine [deflectionChance]% Chance, Kugeln und Nahkampfangriffe abzulenken.</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>Chitinöse Husk</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>Reduziert eingehenden Blutungs- und Brandschaden um [reduction]%.</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>Gräbermacht</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>Wenn deine Gesundheit unter [threshold]% fällt, erhältst du einen Kraftschub, der deinen Nahkampfschaden um [damage]% erhöht.</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>Schreckliches Antlitz</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>, Dein furchterregendes Aussehen reduziert die Angriffsgeschwindigkeit eines Monsters um [reducedAttackSpeed]% für 5 Sekunden, nachdem du es mit Nahkampf getroffen hast.</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>Abscheulichkeit</talentname.chimera_transform>
+  <talentdescription.chimera_transform>, Das Fleisch ist totale Dominanz. Leihe dir den Körper eines Freundes aus und injiziere ihn mit dem Husk-Schnecken, um diese Transformation abzuschließen.</talentdescription.chimera_transform>
+  <talentname.prowler_transform>Auf der Lauer</talentname.prowler_transform>
+  <talentdescription.prowler_transform>Indem du 10 Sekunden lang als Ragdoll agierst, verwandelst du dich in einen Schlicher oder kehrst zur Husk zurück. Du kannst dies einmal alle 60 Sekunden tun.</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>Geschwindigkeitsdämon</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>Deine Grundgeschwindigkeit wird um [reducedSpeed]% reduziert. Wenn du Hyperzin einnimmst, wird deine Sprintgeschwindigkeit um [speed]% stark erhöht.</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>Sehnenflex</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>Deine geschmeidigen Gliedmaßen gewähren [speed]% erhöhte Sprintgeschwindigkeit.</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>Hydrodynamik</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>Schwimmgeschwindigkeit um [speed]% erhöht.</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>Sägeartige Krallen</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>Deine Krallen verursachen tiefe Wunden. Nahkampf verursacht einen Blutungseffekt von [bleed].</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>Muskelarme</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>Wenn du unter dem Einfluss von Steroiden stehst, wird dein Bissschaden um [damage]% erhöht.</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>Ende der Linie</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>Wähle diese Fähigkeit nicht, du wirst getötet und verlierst einen Fähigkeitspunkt.</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>Husk-Schnecke</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug>Eine groteske Masse pulsierender Substanz, wozu dient sie?</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Velonaceps Calyx Extraktionswerkzeug</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>Ein mittelalterliches Werkzeug zum Extrahieren von Eiern aus einem lebenden freundlichen Husk. Könnte tödlich sein, wenn es missbraucht wird.</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Velonaceps Calyx Extraktionswerkzeug (Recycling)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>Ein mittelalterliches Werkzeug zum Extrahieren von Eiern aus einem lebenden freundlichen Husk. Könnte tödlich sein, wenn es missbraucht wird.</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>Haftender Schleim</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>Eine Schicht seltsamen, klebrigen Schlamms bedeckt deine Haut. Es ist warm, gummiartig und lässt sich nicht abwischen. Du fühlst dich seltsam gestärkt unter seiner schleimigen Umarmung, aber dein Magen dreht sich bei dem Gedanken, woraus es besteht.</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>Durchdringender Goreseal</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>Deine Wunden werden mit einer schnurigen, geronnenen Substanz geflickt, die schwach nach verrottendem Seetang riecht. Es verschließt dich, ja, aber zu welchem Preis? Der Gedanke an fremdes Fleisch, das mit deinem verschmolzen ist, ist beunruhigend.</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>Geronnener Komfort</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>Ein viskoser Film breitet sich über deinen Anzug und deine Haut aus und bietet eine leichte Erleichterung von Säure, Verbrennungen und Wahnsinn. Doch der schützende Film zuckt subtil, als ob er lebendig ist. Der Trost fühlt sich hohl an, als ob du an etwas Unaussprechlichem beteiligt bist.</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>Blasse Atmung</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>Ein gedämpftes Geräusch verfolgt deine Ohren, während du einatmest. Die Luft ist seltsam dicht, aber leichter zu atmen. Eine Kälte sickert in deine Lungen, als ob etwas anderes durch dich atmet, um dir zu helfen... aber warum?</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>Glatte Tentakeln</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>Deine Bewegungen werden seltsam flüssig, als ob ölige Tentakeln deine Gliedmaßen führen. Es ist, als ob eine widerliche Membran deine Gelenke beschichtet und deine Bewegung erleichtert, während sie dich daran erinnert, dass du nicht allein bewegst.</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>Flüstern des Fleischschildes</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>Etwas pulsiert unter deiner Haut, wenn Gefahr droht. Du hältst Schläge leichter aus, doch das Gefühl von ziehendem, pulsierendem Fleisch, das nicht deins ist, erfüllt dich mit einer verdrehten Dankbarkeit und anhaltender Übelkeit.</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>Extrahierte Eier</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>Jemand hat gewaltsam deine Eier extrahiert, du wirst Zeit brauchen, um dich zu regenerieren oder riskierst zu sterben.</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>

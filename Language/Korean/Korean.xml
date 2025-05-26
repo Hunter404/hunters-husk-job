@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Korean" nowhitespace="false" translatedname="Korean">
+  <jobName.PlayerHuskJob>허스크</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>썩어가는 시체가 고대 잠수복에 채워져 공기 잠금 장치를 통해 흘러들어왔고, 결코 나가려고 하지 않았다. 그것이 무엇을 원하는지—심지어 원하는 것이 있는지도 아무도 모른다. 그것은 복도에서 머물며 가끔은 경련을 일으키고, 가끔은 짭짤한 냄새가 나는 끈적한 액체를 흘린다. 어떤 이들은 그것이 밤에 부드럽게 클릭 소리를 낸다고 말한다. 그것은 무엇이었든, 이제는 다른 것이 되었고, 머물기로 결정했다.</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>공생</talentname.symbiosis>
+  <talentdescription.symbiosis>친구 근처에 있을 때, 그들은 [stun]% 스턴 저항력과 피해 저항력을 얻습니다. 동료를 치료할 때마다, 자신도 그 양의 [healing]%만큼 치료됩니다.</talentdescription.symbiosis>
+  <talentname.feelsweirdman>기묘한 분비물</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>친구 근처에 있을 때, 그들은 [bleedResistance]% 출혈 저항력을 얻고 출혈 상처 지속 시간을 [bleedWound]% 줄입니다.</talentdescription.feelsweirdman>
+  <talentname.bestfriends>영원한 친구</talentname.bestfriends>
+  <talentdescription.bestfriends1>친구 근처에 있을 때, 그들은 [burn]% 화상 및 산 저항력, 그리고 [psychosis]% 정신병 저항력을 얻습니다.</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>이미 감염되지 않은 동료를 물어보면 [heal]만큼 치료됩니다.</talentdescription.bestfriends2>
+  <talentname.lackofheart>심장 없음</talentname.lackofheart>
+  <talentdescription.lackofheart1>동료 근처에 있을 때, 그들은 [oxygen]% 적은 산소를 소비합니다.</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items]는 [heal]만큼 어떤 사지 부상을 치료할 수 있습니다. 이 효과는 허스크 감염이 없는 동료에게는 세 배로 증가합니다.</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>[item]을 잠금 해제하여 5분마다 [egg]를 추출할 수 있습니다.</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>슬립스트림 분비물</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>동료 근처에 있을 때, 모든 사람이 [speed]% 수영 속도를 얻습니다.</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>물속에 혼자 있을 때, [damage]% 더 많은 피해를 입습니다.</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>수호자</talentname.guardianangel>
+  <talentdescription.guardianangel>피해를 입을 때, 주변의 모든 동료는 [damage]% 더 적은 피해를 입습니다. [duration]초 동안 지속됩니다.</talentdescription.guardianangel>
+  <talentname.overcooked>과도하게 조리된</talentname.overcooked>
+  <talentdescription.overcooked>모든 피해에 대해 [damage]% 감소합니다.</talentdescription.overcooked>
+  <talentname.refeeding>재급식</talentname.refeeding>
+  <talentdescription.refeeding>적을 물어보면 [healing]% 더 많은 치료를 받고 그들에게 [damage]% 더 많은 피해를 줍니다.</talentdescription.refeeding>
+  <talentname.rupturedskin>파열된 피부</talentname.rupturedskin>
+  <talentdescription.rupturedskin>근접 피해를 입을 때, 공격자에게 [bleed]만큼 출혈을 일으킬 [chance]% 확률이 있습니다.</talentdescription.rupturedskin>
+  <talentname.toxiceggs>독성 알</talentname.toxiceggs>
+  <talentdescription.toxiceggs>적을 물면 [acidDamage]의 산 피해와 [bleedDamage]의 출혈 피해를 입힙니다. 당신의 물기 피해를 [damage]% 증가시킵니다.</talentdescription.toxiceggs>
+  <talentname.toxicstingers>독성 침</talentname.toxicstingers>
+  <talentdescription.toxicstingers>[item]을 사용하면 목표물이 [acidDamage]의 산 피해와 [bleedDamage]의 출혈 피해를 입습니다. [item] 피해를 [damage]% 증가시킵니다.</talentdescription.toxicstingers>
+  <talentname.pheromones>페로몬</talentname.pheromones>
+  <talentdescription.pheromones>모든 야생 허스크는 당신을 포함하여 가까운 거리에 있는 모든 사람을 동료 허스크로 인식합니다.</talentdescription.pheromones>
+  <talentname.carnophage>무장 카르노파지</talentname.carnophage>
+  <talentdescription.carnophage>근접 무기를 사용할 때마다 [healing]%의 건강을 얻습니다.</talentdescription.carnophage>
+  <talentname.weldedfibers>신경-살 통합</talentname.weldedfibers>
+  <talentdescription.weldedfibers>기계 및 전기 수리 속도를 [speed]% 증가시키고 관련 기술을 [skill]만큼 향상시킵니다.</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>힌지 갑각</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>들어오는 피해를 반사할 [chance]%의 확률이 추가됩니다.</talentdescription.hingedcarapace>
+  <talentname.moldedhide>형성된 가죽</talentname.moldedhide>
+  <talentdescription.moldedhide>총상에 대한 [damage]% 피해 감소가 추가됩니다.</talentdescription.moldedhide>
+  <talentname.metallinedveins>금속으로 된 정맥</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>메카-살이 수리합니다:</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item]이 이제 사지를 [heal]만큼 치료합니다.</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item]이 이제 사지를 [heal]만큼 치료합니다.</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item]이 이제 사지를 [heal]만큼 치료합니다.</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>생체 탄력 근육</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>적의 건강이 가득할 때 근접 공격 시 [damage]% 추가 피해를 입힙니다.</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>엑소 수트</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>살은 약하다. 완전한 메카 형태로 변형하기 위해 엑소 수트에 들어가세요.</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>부서지는 팔다리</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>스테로이드 효과를 받을 때, 당신의 거대한 팔다리는 근접 공격으로 적을 기절시킬 [chance]%의 확률을 가집니다.</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>야생 자세</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>피해를 입을 때 [duration]초 동안 야생의 분노에 빠집니다. [damageReduction]% 피해 감소와 [stunResistance]% 스턴 저항력을 얻지만, 이동 속도가 [speedPenalty]% 줄어듭니다.</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>뼈 성형된 판</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>총알 및 근접 공격을 반사할 [deflectionChance]%의 확률을 얻습니다.</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>키틴 허스크</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>들어오는 출혈 및 화상 피해를 [reduction]% 줄입니다.</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>무덤의 힘</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>건강이 [threshold]% 이하로 떨어지면 힘의 폭발을 얻어 근접 피해를 [damage]% 증가시킵니다.</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>무서운 모습</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>당신의 무서운 외모는 근접 공격을 받은 후 5초 동안 괴물의 공격 속도를 [reducedAttackSpeed]% 줄입니다.</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>변형</talentname.chimera_transform>
+  <talentdescription.chimera_transform>살은 완전한 지배입니다. 친구의 몸을 빌려 허스크 슬러그를 주입하여 이 변형을 완료합니다.</talentdescription.chimera_transform>
+  <talentname.prowler_transform>사냥 중</talentname.prowler_transform>
+  <talentdescription.prowler_transform>10초 동안 래그돌링하여 사냥꾼으로 변형하거나 허스크로 되돌아갑니다. 이는 60초마다 한 번 할 수 있습니다.</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>속도 악마</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>기본 속도가 [reducedSpeed]% 줄어듭니다. 하이퍼진 상태일 때, 당신의 전력 질주 속도가 [speed]% 크게 증가합니다.</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>힘줄 유연성</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>당신의 유연한 팔다리는 [speed]% 증가된 전력 질주 속도를 제공합니다.</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>유체역학</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>수영 속도가 [speed]% 증가합니다.</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>톱니 발톱</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>당신의 발톱은 깊은 상처를 입힙니다. 근접 공격 시 출혈 효과를 [bleed]만큼 적용합니다.</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>강한 팔</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>스테로이드 효과를 받을 때, 당신의 물기 피해가 [damage]% 증가합니다.</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>끝</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>이 기술을 선택하지 마십시오. 당신은 죽고 기술 포인트를 잃게 됩니다.</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>허스크 슬러그</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug> pulsating goo의 기괴한 덩어리, 이것은 무엇을 위한 것인가?</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Velonaceps calyx 추출 도구</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>생존하는 친절한 허스크에서 알을 추출하기 위한 중세 도구. 남용할 경우 치명적일 수 있습니다.</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Velonaceps calyx 추출 도구 (재활용)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>생존하는 친절한 허스크에서 알을 추출하기 위한 중세 도구. 남용할 경우 치명적일 수 있습니다.</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>점착 슬라임</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>이상하고 점착성 있는 점액이 당신의 피부를 덮고 있습니다. 따뜻하고, 고무 같고, 지워지지 않습니다. 그 끈적한 포옹 아래에서 이상하게 강화된 느낌이지만, 그것이 무엇으로 만들어졌는지 생각하면 속이 울렁거립니다.</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>스며드는 피</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>당신의 상처는 썩은 김이 나는 문자열 같은 응고된 물질로 패치되어 있습니다. 당신을 봉합하고 있지만, 그 대가가 무엇인지 생각하면 불안합니다. 당신의 살과 결합된 외부 살은 불안하게 만듭니다.</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>응고된 위안</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>점성이 있는 필름이 당신의 수트와 피부에 퍼져 산, 화상 및 광기에 대한 약간의 완화를 제공합니다. 그러나, 보호 필름은 미세하게 꿈틀거리며, 마치 살아 있는 것 같습니다. 위안은 허황된 것처럼 느껴지고, 당신은 말로 표현할 수 없는 무언가에 가담한 느낌이 듭니다.</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>창백한 숨결</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>당신이 숨을 쉴 때, 귀를 괴롭히는 숨소리가 들립니다. 공기는 이상하게 밀도가 높지만, 숨쉬기 쉽습니다. 차가운 기운이 당신의 폐로 스며들어, 마치 당신을 통해 다른 무언가가 숨을 쉬고 있는 듯한 느낌을 줍니다… 하지만 왜?</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>매끄러운 촉수</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>당신의 움직임이 이상하게 유동적으로 변합니다, 마치 기름진 촉수가 당신의 팔다리를 안내하는 것 같습니다. 마치 어떤 불쾌한 막이 당신의 관절을 덮고 있어 당신의 움직임을 완화시키지만 당신이 혼자가 아니라는 것을 상기시킵니다.</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>고기 방패의 속삭임</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>위험이 닥쳤을 때 당신의 피부 아래에서 무언가가 뛰어오릅니다. 당신은 더욱 쉽게 타격을 견딜 수 있지만, 당신이 아닌 쫄깃한 살이 당기는 느낌이 뒤틀린 감사와 지속적인 메스꺼움을 불러일으킵니다.</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>추출된 알들</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>누군가가 당신의 알을 강제로 추출했습니다, 당신은 재생할 시간이 필요하거나 죽을 위험이 있습니다.</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Brazilian Portuguese" nowhitespace="false" translatedname="Brazilian Portuguese">
+  <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>Um cadáver em decomposição enfiado em um antigo traje de mergulho, ele flutuou pela eclusa e nunca se incomodou em sair. Ninguém sabe o que ele quer—se é que quer alguma coisa. Ele paira nos corredores, ocasionalmente se contorcendo, ocasionalmente babando um fluido escuro e viscoso que cheira levemente a salmoura. Alguns dizem que ele clica suavemente à noite, um som oco que faz os compartimentos tremerem. O que ele foi um dia, agora é outra coisa, e decidiu ficar.</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>Simbiose</talentname.symbiosis>
+  <talentdescription.symbiosis>Enquanto estiver perto de amigos, eles ganham [stun]% de resistência a atordoamento e resistência a dano. Sempre que você cura um aliado, você também se cura em [healing]% desse valor.</talentdescription.symbiosis>
+  <talentname.feelsweirdman>Secreção maravilhosa</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>Enquanto estiver perto de amigos, eles ganham [bleedResistance]% de resistência a sangramento e reduzem a duração da ferida por sangramento em [bleedWound]% .</talentdescription.feelsweirdman>
+  <talentname.bestfriends>Melhores amigos para sempre</talentname.bestfriends>
+  <talentdescription.bestfriends1>Enquanto estiver perto de amigos, eles ganham [burn]% de resistência a queimaduras e ácido, além de [psychosis]% de resistência à psicose.</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>Morder aliados que não estão infectados já os cura em [heal].</talentdescription.bestfriends2>
+  <talentname.lackofheart>Falta de coração</talentname.lackofheart>
+  <talentdescription.lackofheart1>Enquanto estiver perto de aliados, eles consomem [oxygen]% menos oxigênio.</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items] pode curar qualquer lesão em um membro em [heal]. Esse efeito é triplicado em aliados sem infecção de Husk.</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>Desbloqueia [item] que pode ser usado a cada 5 minutos para extrair [egg].</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>Secreção de corrente de deslizamento</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>Enquanto estiver perto de aliados, todos ganham [speed]% de velocidade de natação.</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>Quando sozinho na água, você recebe [damage]% a mais de dano.</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>Anjo da Guarda</talentname.guardianangel>
+  <talentdescription.guardianangel>Quando você recebe dano, todos os aliados próximos recebem [damage]% a menos de dano por [duration] segundos.</talentdescription.guardianangel>
+  <talentname.overcooked>Cozido demais</talentname.overcooked>
+  <talentdescription.overcooked>Ganhe uma redução de [damage]% em todo o dano.</talentdescription.overcooked>
+  <talentname.refeeding>Realimentação</talentname.refeeding>
+  <talentdescription.refeeding>Morder inimigos cura você em [healing]% a mais e causa [damage]% a mais de dano a eles.</talentdescription.refeeding>
+  <talentname.rupturedskin>Pele rompida</talentname.rupturedskin>
+  <talentdescription.rupturedskin>Quando você sofre dano corpo a corpo, você tem uma chance de [chance]% de fazer o atacante sangrar por [bleed].</talentdescription.rupturedskin>
+  <talentname.toxiceggs>Ovos tóxicos</talentname.toxiceggs>
+  <talentdescription.toxiceggs>Morder inimigos causa [acidDamage] de dano ácido e [bleedDamage] de dano por sangramento. Aumenta seu dano de mordida em [damage]% .</talentdescription.toxiceggs>
+  <talentname.toxicstingers>Agulhas Tóxicas</talentname.toxicstingers>
+  <talentdescription.toxicstingers>Usar [item] faz com que o alvo receba [acidDamage] de dano ácido e [bleedDamage] de dano por sangramento. Aumenta o dano de [item] em [damage]% .</talentdescription.toxicstingers>
+  <talentname.pheromones>Feromônios</talentname.pheromones>
+  <talentdescription.pheromones>Todos os husks ferozes percebem todos em sua proximidade, incluindo você, como um husk irmão.</talentdescription.pheromones>
+  <talentname.carnophage>Carnófago armado</talentname.carnophage>
+  <talentdescription.carnophage>Ganhe [healing]% de saúde sempre que usar armas corpo a corpo.</talentdescription.carnophage>
+  <talentname.weldedfibers>Integração de Neurogás</talentname.weldedfibers>
+  <talentdescription.weldedfibers>Aumenta a velocidade de reparo mecânico e elétrico em [speed]% e impulsiona habilidades relacionadas em [skill].</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>Carapaça articulada</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>Adiciona uma chance de [chance]% de desviar dano recebido.</talentdescription.hingedcarapace>
+  <talentname.moldedhide>Pele Moldada</talentname.moldedhide>
+  <talentdescription.moldedhide>Adiciona uma redução de [damage]% contra ferimentos por bala.</talentdescription.moldedhide>
+  <talentname.metallinedveins>Veias revestidas de metal</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>A carne mecânica repara:</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item] agora cura um membro em [heal].</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item] agora cura um membro em [heal].</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item] agora cura um membro em [heal].</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>Músculos Bioelásticos</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>Quando você ataca um inimigo corpo a corpo com saúde total, você causa [damage]% de dano adicional.</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>Exoesqueleto</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>A carne é fraca. Entre em um Exoesqueleto para alcançar a completa metamorfose mecânica.</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>Membros esmagadores</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>Quando sob o efeito de esteroides, seus membros exagerados têm uma chance de [chance]% de atordoar inimigos que você atinge com ataques corpo a corpo.</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>Postura Feral</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>Entre em uma fúria feral por [duration] segundos quando você recebe dano. Ganhe [damageReduction]% de redução de dano e [stunResistance]% de resistência a atordoamento, mas sua velocidade de movimento é reduzida em [speedPenalty]% .</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>Revestimento de Osso Moldado</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>Ganhe uma chance de [deflectionChance]% de desviar balas e ataques corpo a corpo.</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>Husk Quitinoso</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>Reduz o dano recebido por sangramento e queimaduras em [reduction]% .</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>Força Grave</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>Quando sua saúde cai abaixo de [threshold]%, ganhe um aumento de força, aumentando seu dano corpo a corpo em [damage]% .</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>Visagem Horripilante</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>Sua aparência aterrorizante reduz a velocidade de ataque de um monstro em [reducedAttackSpeed]% por 5 segundos após você atingi-lo corpo a corpo.</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>Abominação</talentname.chimera_transform>
+  <talentdescription.chimera_transform>A carne é dominação total. Pegue o corpo de um amigo e injetá-lo com a lesma husk para completar essa transformação.</talentdescription.chimera_transform>
+  <talentname.prowler_transform>À espreita</talentname.prowler_transform>
+  <talentdescription.prowler_transform>Ao se deixar levar por 10 segundos, você se transforma em um predador ou reverte para husk. Você pode fazer isso uma vez a cada 60 segundos.</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>Demônio da Velocidade</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>Sua velocidade base é reduzida em [reducedSpeed]% . Quando em hipersina, sua velocidade de corrida é aumentada em [speed]% .</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>Flexão do Tendão</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>Seus membros flexíveis concedem um aumento de [speed]% na velocidade de corrida.</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>Hidrodinâmica</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>Velocidade de natação aumentada em [speed]% .</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>Garras Serrilhadas</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>Suas garras causam ferimentos profundos. O corpo a corpo aplica um efeito de sangramento de [bleed].</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>Braços Musculosos</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>Quando sob o efeito de esteroides, seu dano de mordida é aumentado em [damage]% .</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>Fim da linha</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>Não escolha esta habilidade, você será morto e perderá um ponto de habilidade.</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>Lesma Husk</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug>Uma massa grotesca de goop pulsante, para que serve?</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Ferramenta extratora de cálice de Velonaceps</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>Uma ferramenta medieval para extrair ovos de um husk amigável vivo. Pode ser letal se mal utilizada.</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Ferramenta extratora de cálice de Velonaceps (Reciclar)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>Uma ferramenta medieval para extrair ovos de um husk amigável vivo. Pode ser letal se mal utilizada.</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>Lama Pegajosa</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>Uma camada de gosma estranha e pegajosa cobre sua pele. É quente, borrachudo e não vai sair. Você se sente estranhamente fortalecido sob seu abraço escorregadio, mas seu estômago se revira ao pensar do que é feito.</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>Selante de Gore</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>Suas feridas são cobertas por uma matéria espessa e coagula que cheira levemente a algas em decomposição. Está selando você, sim, mas a que custo? A ideia de carne estranha fundida com a sua é inquietante.</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>Conforto Coagulado</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>Um filme viscoso se espalha pelo seu traje e pele, proporcionando um leve alívio contra ácido, queimaduras e loucura. No entanto, o filme protetor se contorce sutilmente, como se estivesse vivo. O conforto parece vazio, como se você estivesse cúmplice em algo indescritível.</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>Sopro Pálido</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>Um sussurro abafado assombra seus ouvidos enquanto você respira. O ar é estranhamente denso, mas mais fácil de respirar. Um frio penetra em seus pulmões, como se algo mais estivesse respirando através de você, ajudando você a persistir… mas por quê?</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>Tentáculos Escorregadios</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>Seus movimentos se tornam estranhamente fluidos, como se tentáculos oleosos guiassem seus membros. É como se alguma membrana fétida cobrisse suas articulações, facilitando seu movimento enquanto o lembra que você não está se movendo sozinho.</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>Sussurro do Escudo de Carne</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>Algo pulsa sob sua pele quando o perigo atinge. Você suporta golpes mais facilmente, mas a sensação de carne puxando e pulsando que não é sua enche você com uma gratidão distorcida e náusea persistente.</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>Ovos Extraídos</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>Alguém extraiu forçosamente seus ovos, você precisará de tempo para regenerar ou corre o risco de morrer.</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>

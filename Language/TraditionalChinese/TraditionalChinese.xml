@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Traditional Chinese" nowhitespace="false" translatedname="Traditional Chinese">
+  <jobName.PlayerHuskJob>殭屍</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>一具腐爛的屍體被塞進一套古老的潛水服，它漂浮進入了氣閘，卻從未打算離開。沒有人知道它想要什麼——即使它真的想要什麼。它徘徊在走廊上，偶爾抽搐，偶爾流出一種淡淡的鹽水氣味的深色粘稠液體。有人說它在夜裡輕聲咔嗒作響，那是一種空洞的聲音，讓艙壁顫動。無論它曾經是什麼，現在它已經變得不一樣，而它決定留下來。</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>共生</talentname.symbiosis>
+  <talentdescription.symbiosis>當靠近朋友時，他們獲得 [stun]% 的眩暈抵抗和傷害抵抗。每當你治療一名盟友時，你也會為自己治療該數量的 [healing]%。</talentdescription.symbiosis>
+  <talentname.feelsweirdman>奇怪的分泌物</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>當靠近朋友時，他們獲得 [bleedResistance]% 的流血抵抗並減少流血傷口的持續時間 [bleedWound]%。</talentdescription.feelsweirdman>
+  <talentname.bestfriends>永遠的好朋友</talentname.bestfriends>
+  <talentdescription.bestfriends1>當靠近朋友時，他們獲得 [burn]% 的燒傷和酸性抵抗，還有 [psychosis]% 的精神病抵抗。</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>咬傷尚未被感染的盟友會為他們治療 [heal]。</talentdescription.bestfriends2>
+  <talentname.lackofheart>缺乏心臟</talentname.lackofheart>
+  <talentdescription.lackofheart1>當靠近盟友時，他們消耗 [oxygen]% 的氧氣更少。</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items] 可以治療任何四肢傷害 [heal]。這個效果對於沒有殭屍感染的盟友是三倍的。</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>解鎖 [item]，每 5 分鐘可以使用一次來提取 [egg]。</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>滑流分泌物</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>當靠近盟友時，每個人獲得 [speed]% 的游泳速度。</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>在水中單獨時，你受到的傷害增加 [damage]% 。”</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>守護天使</talentname.guardianangel>
+  <talentdescription.guardianangel>當你受到傷害時，所有附近的盟友受到的傷害減少 [damage]% 持續 [duration] 秒。</talentdescription.guardianangel>
+  <talentname.overcooked>過度烹調</talentname.overcooked>
+  <talentdescription.overcooked>獲得所有傷害的 [damage]% 減免。</talentdescription.overcooked>
+  <talentname.refeeding>重新進食</talentname.refeeding>
+  <talentdescription.refeeding>咬敵人可為你治療 [healing]% 的額外生命並對他們造成 [damage]% 的額外傷害。</talentdescription.refeeding>
+  <talentname.rupturedskin>破裂的皮膚</talentname.rupturedskin>
+  <talentdescription.rupturedskin>當你受到近戰傷害時，你有 [chance]% 的機會讓攻擊者流血 [bleed]。</talentdescription.rupturedskin>
+  <talentname.toxiceggs>毒卵</talentname.toxiceggs>
+  <talentdescription.toxiceggs>咬敵人會造成 [acidDamage] 的酸性傷害和 [bleedDamage] 的流血傷害。增加你的咬合傷害 [damage]%。</talentdescription.toxiceggs>
+  <talentname.toxicstingers>毒刺</talentname.toxicstingers>
+  <talentdescription.toxicstingers>使用 [item] 會使目標受到 [acidDamage] 的酸性傷害和 [bleedDamage] 的流血傷害。增加 [item] 的傷害 [damage]%。</talentdescription.toxicstingers>
+  <talentname.pheromones>信息素</talentname.pheromones>
+  <talentdescription.pheromones>所有野生殭屍都會將你和你附近的所有人視為同類。</talentdescription.pheromones>
+  <talentname.carnophage>武裝食肉者</talentname.carnophage>
+  <talentdescription.carnophage>每當你使用近戰武器時，獲得 [healing]% 的健康。</talentdescription.carnophage>
+  <talentname.weldedfibers>神經肉體整合</talentname.weldedfibers>
+  <talentdescription.weldedfibers>提高機械和電氣修理速度 [speed]% 並提升相關技能 [skill]。</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>鉸鏈背甲</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>增加 [chance]% 的機會來反彈來襲的傷害。</talentdescription.hingedcarapace>
+  <talentname.moldedhide>模塑皮膚</talentname.moldedhide>
+  <talentdescription.moldedhide>對槍傷的傷害減少 [damage]%。</talentdescription.moldedhide>
+  <talentname.metallinedveins>金屬內襯靜脈</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>機械肉體的修復：</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item] 現在能為一肢體治療 [heal]。</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item] 現在能為一肢體治療 [heal]。</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item] 現在能為一肢體治療 [heal]。</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>生物彈性肌肉</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>當你近戰攻擊一個全血敵人時，造成 [damage]% 的額外傷害。</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>外骨骼</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>肉體是脆弱的。進入外骨骼來實現完全的機械變形。</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>壓碎肢體</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>在類固醇的影響下，你的超大型肢體有 [chance]% 的機會震撼被近戰攻擊的敵人。</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>野性姿態</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>當你受到傷害時，進入一種野性狂怒，持續 [duration] 秒。獲得 [damageReduction]% 的傷害減免和 [stunResistance]% 的眩暈抵抗，但你的移動速度減少 [speedPenalty]%。</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>骨質護甲</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>獲得 [deflectionChance]% 的機會來反彈子彈和近戰攻擊。</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>幾丁質殭屍</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>減少進入的流血和燃燒傷害 [reduction]%。</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>墳墓的力量</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>當你的生命值降至 [threshold]% 以下時，獲得一陣力量，增加你的近戰傷害 [damage]%。</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>可怕的面容</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>你可怕的外表會在你用近戰擊中怪物後，將其攻擊速度降低 [reducedAttackSpeed]% 持續 5 秒。</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>怪物</talentname.chimera_transform>
+  <talentdescription.chimera_transform>肉體是完全的支配。借用朋友的身體並注射殭屍蛞蝓以完成這一變形。</talentdescription.chimera_transform>
+  <talentname.prowler_transform>潛行者</talentname.prowler_transform>
+  <talentdescription.prowler_transform>通過 10 秒的隨意擺動，你變形為潛行者或返回殭屍。你每 60 秒可以執行一次。</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>速度惡魔</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>你的基礎速度減少 [reducedSpeed]%。當在超速時，你的衝刺速度大幅提升 [speed]%。</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>腱靈活</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>你的靈活肢體提供 [speed]% 的衝刺速度增益。</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>流體力學</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>游泳速度提升 [speed]%。</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>鋸齒爪子</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>你的爪子造成深傷。近戰造成流血效果 [bleed]。</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>壯臂</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>在類固醇的影響下，你的咬合傷害增加 [damage]%。</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>終點</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>不要選擇這項技能，你將被殺死並失去一個技能點。</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>殭屍蛞蝓</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug>一團可怕的脈動黏液，它是用來做什麼的？</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Velonaceps 蕊抽取工具</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>一種中世紀工具，用於從活的友好殭屍中提取卵子。如果濫用可能致命。</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Velonaceps 蕊抽取工具 (回收)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>一種中世紀工具，用於從活的友好殭屍中提取卵子。如果濫用可能致命。</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>粘附的黏液</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>一層奇怪的、粘稠的物質覆蓋在你的皮膚上。它溫暖、彈性，無法擦掉。你在它黏滑的擁抱下感到奇怪的增強，但想到它是由什麼組成的，你的胃卻翻了。</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>滲出物</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>你的傷口被某種有線的凝結物修補，散發著淡淡的腐海帶氣味。它在封閉你，是的，但代價是什麼？外來的肉與你的肉融合在一起的想法令人不安。</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>凝塊的安慰</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>一層粘稠的薄膜在你的套裝和皮膚上擴散，稍微緩解酸、燒傷和瘋狂。然而，保護膜微微扭動，仿佛活著。這種安慰感覺空洞，似乎你在某種不可言喻的事情中同謀。</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>蒼白的呼吸</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>當你吸氣時，一種低沉的沙啞聲在你耳邊徘徊。空氣異常濃密，但更容易呼吸。一種寒意滲入你的肺部，好像有什麼東西通過你呼吸，幫助你堅持下去……但為什麼？</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>滑膩的觸手</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>你的動作變得奇怪的流暢，仿佛油膩的觸手引導著你的肢體。就像某種邪惡的膜覆蓋著你的關節，讓你的動作更加輕鬆，同時提醒你並不是獨自行動。</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>肉盾的低語</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>當危險來襲時，你的皮膚下有東西在脈動。你更容易承受打擊，但那種拉扯、跳動的肉體感覺並不是你的，讓你感到扭曲的感激和持續的噁心。</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>提取的卵子</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>有人強行提取了你的卵子，你需要時間來再生，否則有死亡的風險。</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>

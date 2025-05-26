@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Polish" nowhitespace="false" translatedname="Polish">
+  <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>Zgniłe ciało wciśnięte w starożytny skafander nurkowy, dryfowało przez właz i nigdy nie miało zamiaru odejść. Nikt nie wie, czego chce - jeśli w ogóle chce czegokolwiek. Włóczy się po korytarzach, czasami drgając, czasami śliniąc się ciemną, lepką cieczą, która lekko pachnie solanką. Niektórzy twierdzą, że w nocy cicho klika, co jest pustym dźwiękiem, który wstrząsa grodzami. Czymkolwiek było, teraz jest czymś innym i postanowiło zostać.</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>Symbioza</talentname.symbiosis>
+  <talentdescription.symbiosis>Będąc blisko przyjaciół, zyskują [stun]% odporności na ogłuszenie i odporności na obrażenia. Kiedy leczysz sojusznika, również leczy się za [healing]% tej kwoty.</talentdescription.symbiosis>
+  <talentname.feelsweirdman>Wspaniała sekrecja</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>Będąc blisko przyjaciół, zyskują [bleedResistance]% odporności na krwawienie i skracają czas trwania ran krwawiących o [bleedWound]%.</talentdescription.feelsweirdman>
+  <talentname.bestfriends>Najlepsi przyjaciele na zawsze</talentname.bestfriends>
+  <talentdescription.bestfriends1>Będąc blisko przyjaciół, zyskują [burn]% odporności na oparzenia i kwas, plus [psychosis]% odporności na psychozę.</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>Gryzienie sojuszników, którzy nie są już zainfekowani, leczy ich za [heal].</talentdescription.bestfriends2>
+  <talentname.lackofheart>Brak serca</talentname.lackofheart>
+  <talentdescription.lackofheart1>Będąc blisko sojuszników, zużywają [oxygen]% mniej tlenu.</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items] mogą leczyć każdą kontuzję kończyny za [heal]. Ten efekt jest potrojony na sojusznikach bez infekcji Husk.</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>Odblokuj [item], który można używać co 5 minut, aby wydobyć [egg].</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>Sekrecja strumienia</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>Będąc blisko sojuszników, wszyscy zyskują [speed]% prędkości pływania.</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>Kiedy jesteś sam w wodzie, otrzymujesz [damage]% więcej obrażeń.</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>Anioł stróż</talentname.guardianangel>
+  <talentdescription.guardianangel>Gdy otrzymujesz obrażenia, wszyscy pobliscy sojusznicy otrzymują [damage]% mniej obrażeń przez [duration] sekund.</talentdescription.guardianangel>
+  <talentname.overcooked>Przypalony</talentname.overcooked>
+  <talentdescription.overcooked>Zyskujesz [damage]% redukcji wszystkich obrażeń.</talentdescription.overcooked>
+  <talentname.refeeding>Ponowne karmienie</talentname.refeeding>
+  <talentdescription.refeeding>Gryzienie wrogów leczy cię o [healing]% więcej i zadaje im [damage]% więcej obrażeń.</talentdescription.refeeding>
+  <talentname.rupturedskin>Rozdarta skóra</talentname.rupturedskin>
+  <talentdescription.rupturedskin>Kiedy otrzymujesz obrażenia w walce wręcz, masz [chance]% szansy na sprawienie, że napastnik będzie krwawił za [bleed].</talentdescription.rupturedskin>
+  <talentname.toxiceggs>Toksyczne jaja</talentname.toxiceggs>
+  <talentdescription.toxiceggs>Gryzienie wrogów zadaje [acidDamage] obrażeń kwasowych i [bleedDamage] obrażeń krwawienia. Zwiększa twoje obrażenia za ugryzienie o [damage]%.</talentdescription.toxiceggs>
+  <talentname.toxicstingers>Toksyczne żądła</talentname.toxicstingers>
+  <talentdescription.toxicstingers>Użycie [item] powoduje, że cel otrzymuje [acidDamage] obrażeń kwasowych i [bleedDamage] obrażeń krwawienia. Zwiększa obrażenia [item] o [damage]%.</talentdescription.toxicstingers>
+  <talentname.pheromones>Feromony</talentname.pheromones>
+  <talentdescription.pheromones>Wszystkie dzikie huski postrzegają wszystkich w twojej bliskiej okolicy, w tym ciebie, jako towarzysza huska.</talentdescription.pheromones>
+  <talentname.carnophage>Uzbrojony carnophage</talentname.carnophage>
+  <talentdescription.carnophage>Zyskujesz [healing]% zdrowia za każdym razem, gdy używasz broni wręcz.</talentdescription.carnophage>
+  <talentname.weldedfibers>Integracja Neuro-Mięśni</talentname.weldedfibers>
+  <talentdescription.weldedfibers>Zwiększa prędkość naprawy mechanicznej i elektrycznej o [speed]% i wzmacnia związane umiejętności o [skill].</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>Zawiasowa skorupa</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>Dodaje [chance]% szansy na odbicie nadchodzących obrażeń.</talentdescription.hingedcarapace>
+  <talentname.moldedhide>Uformowana skóra</talentname.moldedhide>
+  <talentdescription.moldedhide>Dodaje [damage]% redukcji obrażeń od ran postrzałowych.</talentdescription.moldedhide>
+  <talentname.metallinedveins>Żyły pokryte metalem</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>Mięso-mechaniczne naprawia:</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item] teraz leczy kończynę za [heal].</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item] teraz leczy kończynę za [heal].</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item] teraz leczy kończynę za [heal].</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>Bioelastyczne mięśnie</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>Kiedy atakujesz wręcz wroga pełnym zdrowiem, zadajesz [damage]% dodatkowych obrażeń.</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>Egzoszkielet</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>Mięso jest słabe. Wejdź do egzoszkieletu, aby osiągnąć pełną mecha-morfizację.</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>Gniotące kończyny</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>Kiedy jesteś pod wpływem sterydów, twoje przerośnięte kończyny mają [chance]% szansy na ogłuszenie wrogów, których uderzysz w ataku wręcz.</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>Dzikie nastawienie</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>Wchodzisz w dziki szał przez [duration] sekund, gdy otrzymujesz obrażenia. Zyskujesz [damageReduction]% redukcji obrażeń i [stunResistance]% odporności na ogłuszenie, ale twoja prędkość ruchu jest zmniejszona o [speedPenalty]%.</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>Płyta z kości</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>Zyskujesz [deflectionChance]% szansy na odbicie pocisków i ataków wręcz.</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>Chitynowy husk</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>Zmniejsza nadchodzące obrażenia krwawienia i oparzeń o [reduction]%.</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>Moc grobu</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>Kiedy twoje zdrowie spada poniżej [threshold]%, zyskujesz przypływ siły, zwiększając swoje obrażenia za ugryzienie o [damage]%.</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>Straszny wygląd</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>Twój przerażający wygląd zmniejsza prędkość ataku potwora o [reducedAttackSpeed]% przez 5 sekund po tym, jak go uderzysz w walce wręcz.</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>Abominacja</talentname.chimera_transform>
+  <talentdescription.chimera_transform>Mięso to całkowita dominacja. Pożycz ciało przyjaciela i wstrzyknij mu husk-ślimaka, aby zakończyć tę transformację.</talentdescription.chimera_transform>
+  <talentname.prowler_transform>Na tropie</talentname.prowler_transform>
+  <talentdescription.prowler_transform>Poprzez ragdolling przez 10 sekund, przekształcasz się w łowcę lub wracasz do huska. Możesz to zrobić raz na 60 sekund.</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>Demon prędkości</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>Twoja podstawowa prędkość jest zmniejszona o [reducedSpeed]%. Kiedy jesteś na hyperzynie, twoja prędkość sprintu znacznie wzrasta o [speed]%.</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>Elastyczność ścięgien</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>Twoje giętkie kończyny przyznają [speed]% zwiększonej prędkości sprintu.</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>Hydrodynamika</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>Prędkość pływania zwiększona o [speed]%.</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>Ząbkowane pazury</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>Twoje pazury powodują głębokie rany. Walka wręcz stosuje efekt krwawienia o [bleed].</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>Wzmocnione ramiona</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>Kiedy jesteś pod wpływem sterydów, twoje obrażenia za ugryzienie są zwiększone o [damage]%.</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>Koniec linii</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>Nie wybieraj tej umiejętności, zostaniesz zabity i stracisz punkt umiejętności.</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>Husk ślimak</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug>Groteskowa masa pulsującego glutowatego, do czego to służy?</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Narzędzie do ekstrakcji kielichów Velonaceps</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>Średniowieczne narzędzie do wydobywania jajek z żywego, przyjaznego huska. Może być śmiertelne, jeśli nadużywane.</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Narzędzie do ekstrakcji kielichów Velonaceps (Recykling)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>Średniowieczne narzędzie do wydobywania jajek z żywego, przyjaznego huska. Może być śmiertelne, jeśli nadużywane.</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>Przyczepiający się śluz</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>Warstwa dziwnej, przyczepnej mazi pokrywa twoją skórę. Jest ciepła, gumowata i nie da się jej zetrzeć. Czujesz się dziwnie wzmocniony pod jej śluzowatym uściskiem, ale twoje wnętrzności przewracają się na myśl o tym, z czego jest zrobiona.</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>Przeciekająca goreseal</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>Twoje rany są załatane przez jakąś włóknistą, skondensowaną substancję, która lekko pachnie gnijącą wodorostą. To cię uszczelnia, tak, ale jakim kosztem? Myśl o obcej tkance zlanej z twoją jest niepokojąca.</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>Zwięzła pociecha</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>Gęsta warstwa rozprzestrzenia się na twoim skafandrze i skórze, dając niewielką ulgę od kwasu, oparzeń i szaleństwa. Jednak ta ochrona subtelnie się porusza, jakby była żywa. To poczucie komfortu jest puste, jakbyś był współwinny czemuś niewypowiedzianemu.</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>Blady oddech</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>Stłumiony chrapliwy dźwięk nawiedza twoje uszy, gdy wdychasz. Powietrze jest dziwnie gęste, ale łatwiejsze do oddychania. Dreszcz wsiąka w twoje płuca, jakby coś innego oddychało przez ciebie, pomagając ci przetrwać… ale dlaczego?</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>Śliskie wici</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>Twoje ruchy stają się dziwnie płynne, jakby oleiste wici prowadziły twoje kończyny. Jakby jakiś odrażający błonnik pokrywał twoje stawy, ułatwiając ruch, przypominając ci, że nie poruszasz się sam.</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>Szept mięsołapa</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>Coś pulsuje pod twoją skórą, gdy niebezpieczeństwo nadchodzi. Łatwiej znosisz ciosy, ale odczucie ciągnięcia, pulsującej tkanki, która nie jest twoja, napełnia cię skrzywioną wdzięcznością i utrzymującą się mdłością.</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>Wydobyte jaja</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>Ktoś siłą wydobył twoje jaja, będziesz potrzebować czasu na regenerację lub ryzykować śmiercią.</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Ukrainian">
+  <jobName.PlayerHuskJob>Гуск</jobName.PlayerHuskJob>
+  <jobdescription.PlayerHuskJob>Гниле тіло, набите в старий костюм дайвера, занесло в шлюз і воно так і не пішло. Ніхто не знає, чого воно хоче — якщо взагалі хоче чогось. Воно блукає коридорами, час від часу тремтить, час від часу пускає темну, в'язку рідину, що злегка пахне сольовим розчином. Дехто каже, що вночі воно тихо клацає, видаючи порожній звук, що грюкає по перебіркам. Чим би воно не було колись, тепер це щось інше, і воно вирішило залишитися.</jobdescription.PlayerHuskJob>
+  <talentname.symbiosis>Симбіоз</talentname.symbiosis>
+  <talentdescription.symbiosis>Поряд з друзями, вони отримують [stun]% стійкості до оглушення та стійкості до урону. Коли ви лікуєте союзника, ви також лікуєте себе на [healing]% від цієї кількості.</talentdescription.symbiosis>
+  <talentname.feelsweirdman>Чудодійна секреція</talentname.feelsweirdman>
+  <talentdescription.feelsweirdman>Поряд з друзями, вони отримують [bleedResistance]% стійкості до кровотечі та зменшують тривалість кровотечі на [bleedWound]%.</talentdescription.feelsweirdman>
+  <talentname.bestfriends>Найкращі друзі назавжди</talentname.bestfriends>
+  <talentdescription.bestfriends1>Поряд з друзями, вони отримують [burn]% стійкості до опіків і кислоти, а також [psychosis]% стійкості до психозу.</talentdescription.bestfriends1>
+  <talentdescription.bestfriends2>Кусаючи союзників, які ще не інфіковані, ви лікуєте їх на [heal].</talentdescription.bestfriends2>
+  <talentname.lackofheart>Відсутність серця</talentname.lackofheart>
+  <talentdescription.lackofheart1>Поряд з союзниками, вони споживають на [oxygen]% менше кисню.</talentdescription.lackofheart1>
+  <talentdescription.lackofheart2>[items] можуть лікувати будь-яку травму кінцівки на [heal]. Цей ефект утричі сильніший для союзників без інфекції Гуска.</talentdescription.lackofheart2>
+  <talentdescription.lackofheart3>Розблокування [item], який можна використовувати кожні 5 хвилин для витягування [egg].</talentdescription.lackofheart3>
+  <talentname.slipstreamsecretion>Секреція Slipstream</talentname.slipstreamsecretion>
+  <talentdescription.slipstreamsecretion1>Поряд з союзниками, усі отримують [speed]% швидкості плавання.</talentdescription.slipstreamsecretion1>
+  <talentdescription.slipstreamsecretion2>Коли ви один у воді, ви отримуєте [damage]% більше урону.</talentdescription.slipstreamsecretion2>
+  <talentname.guardianangel>Ангел-охоронець</talentname.guardianangel>
+  <talentdescription.guardianangel>Коли ви отримуєте урон, всі близькі союзники отримують на [damage]% менше урону протягом [duration] секунд.</talentdescription.guardianangel>
+  <talentname.overcooked>Перепечений</talentname.overcooked>
+  <talentdescription.overcooked>Отримайте зменшення урону на [damage]% до всього урону.</talentdescription.overcooked>
+  <talentname.refeeding>Повторне годування</talentname.refeeding>
+  <talentdescription.refeeding>Кусаючи ворогів, ви лікуєте себе на [healing]% більше та завдаєте їм на [damage]% більше урону.</talentdescription.refeeding>
+  <talentname.rupturedskin>Розірвана шкіра</talentname.rupturedskin>
+  <talentdescription.rupturedskin>Коли ви отримуєте ближній урон, у вас є [chance]% шанс змусити нападника кровоточити на [bleed].</talentdescription.rupturedskin>
+  <talentname.toxiceggs>Отруйні яйця</talentname.toxiceggs>
+  <talentdescription.toxiceggs>Кусаючи ворогів, ви завдаєте [acidDamage] кислотного урону та [bleedDamage] урону від кровотечі. Збільшує ваш урон від укусу на [damage]%.</talentdescription.toxiceggs>
+  <talentname.toxicstingers>Отруйні жалюги</talentname.toxicstingers>
+  <talentdescription.toxicstingers>Використання [item] викликає у цілі [acidDamage] кислотного урону та [bleedDamage] урону від кровотечі. Збільшує урон [item] на [damage]%.</talentdescription.toxicstingers>
+  <talentname.pheromones>Феромони</talentname.pheromones>
+  <talentdescription.pheromones>Усі дикий Гуски сприймають кожного у вашій близькості, включаючи вас, як свого роду Гуску.</talentdescription.pheromones>
+  <talentname.carnophage>Озброєний карнофаг</talentname.carnophage>
+  <talentdescription.carnophage>Отримуйте [healing]% здоров'я щоразу, коли ви використовуєте ближні зброї.</talentdescription.carnophage>
+  <talentname.weldedfibers>Інтеграція нейро-м'яса</talentname.weldedfibers>
+  <talentdescription.weldedfibers>Збільшує швидкість механічного та електричного ремонту на [speed]% та підвищує пов'язані навички на [skill].</talentdescription.weldedfibers>
+  <talentname.hingedcarapace>З'єднаний панцир</talentname.hingedcarapace>
+  <talentdescription.hingedcarapace>Додає [chance]% шанс відбити вхідний урон.</talentdescription.hingedcarapace>
+  <talentname.moldedhide>Литий шкіра</talentname.moldedhide>
+  <talentdescription.moldedhide>Додає [damage]% зменшення урону від вогневих ран.</talentdescription.moldedhide>
+  <talentname.metallinedveins>Металеві вени</talentname.metallinedveins>
+  <talentdescription.metallinedveins1>Меха-м'ясо ремонтує:</talentdescription.metallinedveins1>
+  <talentdescription.metallinedveins2>[item] тепер лікує кінцівку на [heal].</talentdescription.metallinedveins2>
+  <talentdescription.metallinedveins3>[item] тепер лікує кінцівку на [heal].</talentdescription.metallinedveins3>
+  <talentdescription.metallinedveins4>[item] тепер лікує кінцівку на [heal].</talentdescription.metallinedveins4>
+  <talentname.bioelasticmuscles>Біоеластичні м'язи</talentname.bioelasticmuscles>
+  <talentdescription.bioelasticmuscles>Коли ви атакуєте ворога ближнім боєм при повному здоров'ї, ви завдаєте [damage]% додаткового урону.</talentdescription.bioelasticmuscles>
+  <talentname.exosuit_transform>Екзокостюм</talentname.exosuit_transform>
+  <talentdescription.exosuit_transform>М'ясо слабке. Увійдіть в екзокостюм, щоб досягти повної меха-морфози.</talentdescription.exosuit_transform>
+  <talentname.chimera_crushinglimbs>Душителі кінцівки</talentname.chimera_crushinglimbs>
+  <talentdescription.chimera_crushinglimbs>Коли під впливом стероїдів, ваші розмірені кінцівки мають [chance]% шанс оглушити ворогів, яких ви вдарите ближніми атаками.</talentdescription.chimera_crushinglimbs>
+  <talentname.chimera_feralstance>Дикий стан</talentname.chimera_feralstance>
+  <talentdescription.chimera_feralstance>Вступайте у дикий гнів протягом [duration] секунд, коли отримуєте урон. Отримуйте [damageReduction]% зменшення урону і [stunResistance]% стійкості до оглушення, але ваша швидкість руху зменшується на [speedPenalty]%</talentdescription.chimera_feralstance>
+  <talentname.chimera_bonemoldedplating>Панцир з кісток</talentname.chimera_bonemoldedplating>
+  <talentdescription.chimera_bonemoldedplating>Отримайте [deflectionChance]% шанс відбити кулі та ближні атаки.</talentdescription.chimera_bonemoldedplating>
+  <talentname.chimera_chitinoushusk>Хітиновий Гуск</talentname.chimera_chitinoushusk>
+  <talentdescription.chimera_chitinoushusk>Зменшує вхідний урон від кровотечі та опіків на [reduction]%</talentdescription.chimera_chitinoushusk>
+  <talentname.chimera_gravemight>Могутність могили</talentname.chimera_gravemight>
+  <talentdescription.chimera_gravemight>Коли ваше здоров'я знижується нижче [threshold]%, отримуйте сплеск сили, збільшуючи ваш ближній урон на [damage]% .</talentdescription.chimera_gravemight>
+  <talentname.chimera_horridvisage>Жахливий вигляд</talentname.chimera_horridvisage>
+  <talentdescription.chimera_horridvisage>Ваш жахливий вигляд зменшує швидкість атаки монстра на [reducedAttackSpeed]% протягом 5 секунд після того, як ви вдарите його ближнім боєм.</talentdescription.chimera_horridvisage>
+  <talentname.chimera_transform>Абомінація</talentname.chimera_transform>
+  <talentdescription.chimera_transform>М'ясо — це тотальна домінація. Позичте тіло друга і введіть в нього слиз Гуска, щоб завершити цю трансформацію.</talentdescription.chimera_transform>
+  <talentname.prowler_transform>На полюванні</talentname.prowler_transform>
+  <talentdescription.prowler_transform>Провалюючись протягом 10 секунд, ви перетворюєтеся на хижака або повертаєтеся до Гуска. Ви можете зробити це один раз кожні 60 секунд.</talentdescription.prowler_transform>
+  <talentname.prowler_speeddemon>Швидкісний демон</talentname.prowler_speeddemon>
+  <talentdescription.prowler_speeddemon>Ваша базова швидкість зменшена на [reducedSpeed]%. Коли на гіперзіні, ваша швидкість спринту значно збільшується на [speed]% .</talentdescription.prowler_speeddemon>
+  <talentname.prowler_tendonflex>Гнучкість сухожиль</talentname.prowler_tendonflex>
+  <talentdescription.prowler_tendonflex>Ваші гнучкі кінцівки надають [speed]% збільшення швидкості спринту.</talentdescription.prowler_tendonflex>
+  <talentname.prowler_hydrodynamics>Гідродинаміка</talentname.prowler_hydrodynamics>
+  <talentdescription.prowler_hydrodynamics>Швидкість плавання збільшена на [speed]% .</talentdescription.prowler_hydrodynamics>
+  <talentname.prowler_serratedclaws>Зубчасті кігті</talentname.prowler_serratedclaws>
+  <talentdescription.prowler_serratedclaws>Ваші кігті завдають глибоких ран. Ближній бій надає ефект кровотечі на [bleed].</talentdescription.prowler_serratedclaws>
+  <talentname.prowler_swolearms>Накачані руки</talentname.prowler_swolearms>
+  <talentdescription.prowler_swolearms>Коли під впливом стероїдів, ваш урон від укусу збільшується на [damage]% .</talentdescription.prowler_swolearms>
+  <talentname.EndOfTheLine>Кінець лінії</talentname.EndOfTheLine>
+  <talentdescription.EndOfTheLine>Не обирайте цю навичку, ви будете вбиті та втратите бал навички.</talentdescription.EndOfTheLine>
+  <entityname.hh_brainslug>Гусеня Гуска</entityname.hh_brainslug>
+  <entitydescription.hh_brainslug>Гротескна маса пульсуючої слизу, для чого це?</entitydescription.hh_brainslug>
+  <entityname.hh_eggextractor>Інструмент для витягування каликів Velonaceps</entityname.hh_eggextractor>
+  <entitydescription.hh_eggextractor>Середньовічний інструмент для витягування яєць з живого дружнього Гуска. Може бути смертельним, якщо зловживати.</entitydescription.hh_eggextractor>
+  <fabricationheader.hh_eggextractor_recycle>Інструмент для витягування каликів Velonaceps (Переробка)</fabricationheader.hh_eggextractor_recycle>
+  <fabricationdescription.hh_eggextractor_recycle>Середньовічний інструмент для витягування яєць з живого дружнього Гуска. Може бути смертельним, якщо зловживати.</fabricationdescription.hh_eggextractor_recycle>
+  <afflictionname.HHSymbiosisBuff>Липка слиз</afflictionname.HHSymbiosisBuff>
+  <afflictiondescription.HHSymbiosisBuff>Шар дивного, липкого слизу покриває вашу шкіру. Він теплий, гумовий, і його не можна стерти. Ви відчуваєте дивне підбадьорення під його слизьким обіймами, але ваш шлунок обертається від думки про те, з чого він зроблений.</afflictiondescription.HHSymbiosisBuff>
+  <afflictionname.HHFeelsWeirdManBuff>Протікаюча кров</afflictionname.HHFeelsWeirdManBuff>
+  <afflictiondescription.HHFeelsWeirdManBuff>Ваші рани заповнені якоюсь волокнистою, згусткованою речовиною, що злегка пахне гнилим ламінарією. Це закриває вас, так, але якою ціною? Думка про чужу плоть, злиту з вашою, неприємна.</afflictiondescription.HHFeelsWeirdManBuff>
+  <afflictionname.HHBestFriendsBuff>Згусток комфорту</afflictionname.HHBestFriendsBuff>
+  <afflictiondescription.HHBestFriendsBuff>В'язка плівка розповсюджується по вашому костюму та шкірі, даючи невелику полегшення від кислоти, опіків та божевілля. Проте, захисна плівка злегка ворушиться, ніби жива. Комфорт відчувається порожнім, як ніби ви співучасник чогось незбагненного.</afflictiondescription.HHBestFriendsBuff>
+  <afflictionname.HHLackOfHeartBuff>Блідий подих</afflictionname.HHLackOfHeartBuff>
+  <afflictiondescription.HHLackOfHeartBuff>Приглушений хрип переслідує ваші вуха, коли ви вдихаєте. Повітря дивно густе, але його легше дихати. Холоду проникає у ваші легені, ніби щось інше дихає через вас, допомагаючи вам вижити... але чому?</afflictiondescription.HHLackOfHeartBuff>
+  <afflictionname.HHSlipstreamSecretionBuff>Слинявий щупалець</afflictionname.HHSlipstreamSecretionBuff>
+  <afflictiondescription.HHSlipstreamSecretionBuff>Ваші рухи стають дивно плавними, ніби олійні щупальці ведуть ваші кінцівки. Ніби якась огидна мембрана покриває ваші суглоби, полегшуючи ваші рухи, нагадуючи, що ви не рухаєтеся самі.</afflictiondescription.HHSlipstreamSecretionBuff>
+  <afflictionname.HHGuardianAngelBuff>Шепіт м'ясного щита</afflictionname.HHGuardianAngelBuff>
+  <afflictiondescription.HHGuardianAngelBuff>Щось пульсує під вашою шкірою, коли загроза наближається. Ви легше переносите удари, але відчуття тягучого, пульсуючого м'яса, яке не ваше, наповнює вас спотвореною вдячністю і тривалим нудотою.</afflictiondescription.HHGuardianAngelBuff>
+  <afflictionname.HHExtractedEggsDebuff>Витягнуті яйця</afflictionname.HHExtractedEggsDebuff>
+  <afflictiondescription.HHExtractedEggsDebuff>Хтось примусово витягнув ваші яйця, вам знадобиться час для відновлення або ризикнути померти.</afflictiondescription.HHExtractedEggsDebuff>
+</infotexts>
