@@ -9,6 +9,7 @@
     Group="human"
     Humanoid="True"
     HasInfo="True"
+    HasCharacterInfo="True"
     CanInteract="True"
     CanClimb="True"
     Husk="False"
