@@ -6,9 +6,17 @@ HH.HuntersHusks = {
     Path = table.pack(...)[1]
 }
 
-HH.HuntersGenetics = HH.HuntersGenetics or {
-    Character = LuaUserData.CreateStatic("HH.HuntersGenetics.CharacterCsLua", true)
-}
+local function registerHuntersGenetics()
+    HH.HuntersGenetics = HH.HuntersGenetics or {
+        Character = LuaUserData.CreateStatic("HH.HuntersGenetics.CharacterCsLua", true)
+    }
+end
+
+local ok, err = pcall(registerHuntersGenetics)
+
+if not ok then
+    print("Error initializing Hunter's Genetics: " .. tostring(err))
+end
 
 dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/shared.lua")
 

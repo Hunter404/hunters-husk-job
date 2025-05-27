@@ -1,9 +1,6 @@
 name: Validate Lua Scripts
 
 on:
-  push:
-    paths:
-      - '**/*.lua'
   pull_request:
     paths:
       - '**/*.lua'
@@ -15,11 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Lua graph
-        run: |
-          cat Lua/ForcedAutorun.lua Lua/Scripts/init.lua Lua/Scripts/cl_init.lua Lua/Scripts/shared.lua Lua/Scripts/utility.lua > tmp.lua
-
       - name: Luacheck linter
         uses: lunarmodules/luacheck@v1
         with:
-          args: tmp.lua --config .luacheckrc
+          args: . --config .luacheckrc
