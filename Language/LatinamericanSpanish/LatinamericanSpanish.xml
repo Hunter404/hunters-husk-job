@@ -2,8 +2,8 @@
 <infotexts language="Latinamerican Spanish" nowhitespace="false" translatedname="Latinamerican Spanish">
   <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Un cadáver en descomposición metido en un antiguo traje de buzo, se deslizó a través de la esclusa y nunca se molestó en salir. Nadie sabe lo que quiere, si es que quiere algo en absoluto. Merodea por los corredores, a veces temblando, a veces babeando un fluido oscuro y viscoso que huele ligeramente a salmuera. Algunos dicen que hace un clic suave por la noche, un sonido hueco que sacude los mamparos. Lo que una vez fue, ahora es algo más, y ha decidido quedarse.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Simbiogénesis</talentname.symbiosis>
-  <talentdescription.symbiosis>Mientras estén cerca de amigos, ganan un [stun]% de resistencia al aturdimiento y resistencia al daño. Cada vez que sanas a un aliado, también te sanas a ti mismo por un [healing]% de esa cantidad.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Simbiogénesis</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>Mientras estén cerca de amigos, ganan un [stun]% de resistencia al aturdimiento y resistencia al daño. Cada vez que sanas a un aliado, también te sanas a ti mismo por un [healing]% de esa cantidad.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Secreción maravillosa</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>Mientras estén cerca de amigos, ganan un [bleedResistance]% de resistencia a las hemorragias y reducen la duración de las heridas por hemorragia en un [bleedWound]%.</talentdescription.feelsweirdman>
   <talentname.bestfriends>Mejores amigos para siempre</talentname.bestfriends>

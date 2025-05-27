@@ -83,7 +83,7 @@ local function OnApplyMedicationFromHusk(item, usingCharacter, targetCharacter, 
         return false
     end
 
-    if not usingCharacter.HasTalent("symbiosis") then
+    if not usingCharacter.HasTalent("hh_symbiosis") then
         return false
     end
 

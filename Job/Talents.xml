@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Talents>
-  <Talent identifier="symbiosis">
-    <Description tag="talentdescription.symbiosis">
+  <Talent identifier="hh_symbiosis">
+    <Description tag="talentdescription.hh_symbiosis">
       <Replace tag="[stun]" value="15" color="gui.green"/>
       <Replace tag="[damage]" value="15" color="gui.green"/>
       <Replace tag="[healing]" value="50" color="gui.green"/>

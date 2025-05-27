@@ -2,8 +2,8 @@
 <infotexts language="Ukrainian" nowhitespace="false" translatedname="Ukrainian">
   <jobName.PlayerHuskJob>Гуск</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Гниле тіло, набите в старий костюм дайвера, занесло в шлюз і воно так і не пішло. Ніхто не знає, чого воно хоче — якщо взагалі хоче чогось. Воно блукає коридорами, час від часу тремтить, час від часу пускає темну, в'язку рідину, що злегка пахне сольовим розчином. Дехто каже, що вночі воно тихо клацає, видаючи порожній звук, що грюкає по перебіркам. Чим би воно не було колись, тепер це щось інше, і воно вирішило залишитися.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Симбіоз</talentname.symbiosis>
-  <talentdescription.symbiosis>Поряд з друзями, вони отримують [stun]% стійкості до оглушення та стійкості до урону. Коли ви лікуєте союзника, ви також лікуєте себе на [healing]% від цієї кількості.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Симбіоз</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>Поряд з друзями, вони отримують [stun]% стійкості до оглушення та стійкості до урону. Коли ви лікуєте союзника, ви також лікуєте себе на [healing]% від цієї кількості.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Чудодійна секреція</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>Поряд з друзями, вони отримують [bleedResistance]% стійкості до кровотечі та зменшують тривалість кровотечі на [bleedWound]%.</talentdescription.feelsweirdman>
   <talentname.bestfriends>Найкращі друзі назавжди</talentname.bestfriends>
