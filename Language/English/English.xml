@@ -2,8 +2,8 @@
 <infotexts language="English" nowhitespace="false" translatedname="English">
   <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>A rotting corpse stuffed into an ancient diver's suit, it drifted in through the airlock and never bothered to leave. No one knows what it wants—if it even wants anything at all. It lingers in the corridors, occasionally twitching, occasionally drooling a dark, viscous fluid that smells faintly of brine. Some say it clicks softly at night, a hollow sound that rattles the bulkheads. Whatever it once was, now it’s something else, and it’s decided to stay.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Symbiosis</talentname.symbiosis>
-  <talentdescription.symbiosis>While near friends, they gain [stun]% stun resistance and damage resistance. Whenever you heal an ally, you also heal yourself for [healing]% of that amount.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Symbiosis</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>While near friends, they gain [stun]% stun resistance and damage resistance. Whenever you heal an ally, you also heal yourself for [healing]% of that amount.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Wounderful secretion</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>While near friends, they gain [bleedResistance]% bleed resistance and reduce bleeding wound duration by [bleedWound]%.</talentdescription.feelsweirdman>
   <talentname.bestfriends>Best friends forever</talentname.bestfriends>

@@ -2,8 +2,8 @@
 <infotexts language="German" nowhitespace="false" translatedname="German">
   <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Ein verrottender Leichnam, der in einen alten Taucheranzug gestopft ist, schwebte durch die Luftschleuse und ließ sich nie wieder blicken. Niemand weiß, was es will – falls es überhaupt etwas will. Es verweilt in den Gängen, zuckt gelegentlich, sabbert hin und wieder eine dunkle, zähflüssige Flüssigkeit, die schwach nach Salzwasser riecht. Einige sagen, es klickt nachts leise, ein hohler Klang, der die Bulkheads erschüttert. Was es einmal war, ist jetzt etwas anderes, und es hat beschlossen zu bleiben.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Symbiose</talentname.symbiosis>
-  <talentdescription.symbiosis>In der Nähe von Freunden erhalten sie [stun]% Stun-Resistenz und Schadenresistenz. Immer wenn du einen Verbündeten heilst, heilst du auch dich selbst für [healing]% dieses Betrags.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Symbiose</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>In der Nähe von Freunden erhalten sie [stun]% Stun-Resistenz und Schadenresistenz. Immer wenn du einen Verbündeten heilst, heilst du auch dich selbst für [healing]% dieses Betrags.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Wunderbare Sekretion</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>In der Nähe von Freunden erhalten sie [bleedResistance]% Blutungsresistenz und reduzieren die Dauer von Blutungswunden um [bleedWound]%.</talentdescription.feelsweirdman>
   <talentname.bestfriends>Beste Freunde für immer</talentname.bestfriends>

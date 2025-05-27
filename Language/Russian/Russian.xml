@@ -2,8 +2,8 @@
 <infotexts language="Russian" nowhitespace="false" translatedname="Russian">
   <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Гниющее тело, запихнутое в древний костюм водолаза, оно проплыло через шлюз и никогда не уходит. Никто не знает, чего оно хочет - если вообще чего-то хочет. Оно бродит по коридорам, время от времени дергаясь, время от времени подтекая темной, вязкой жидкостью, которая слегка пахнет соленой водой. Некоторые говорят, что оно тихо щелкает ночью, пустой звук, который гремит по переборкам. Чем бы оно ни было раньше, теперь это что-то другое, и оно решило остаться.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Симбиоз</talentname.symbiosis>
-  <talentdescription.symbiosis>Находясь рядом с друзьями, они получают [stun]% сопротивления оглушению и сопротивления урону. Каждый раз, когда вы лечите союзника, вы также лечите себя на [healing]% от этой суммы.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Симбиоз</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>Находясь рядом с друзьями, они получают [stun]% сопротивления оглушению и сопротивления урону. Каждый раз, когда вы лечите союзника, вы также лечите себя на [healing]% от этой суммы.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Чудесная секреция</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>Находясь рядом с друзьями, они получают [bleedResistance]% сопротивления кровотечению и сокращают длительность кровоточащих ран на [bleedWound]%.</talentdescription.feelsweirdman>
   <talentname.bestfriends>Лучшие друзья навсегда</talentname.bestfriends>

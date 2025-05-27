@@ -2,8 +2,8 @@
 <infotexts language="Brazilian Portuguese" nowhitespace="false" translatedname="Brazilian Portuguese">
   <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Um cadáver em decomposição enfiado em um antigo traje de mergulho, ele flutuou pela eclusa e nunca se incomodou em sair. Ninguém sabe o que ele quer—se é que quer alguma coisa. Ele paira nos corredores, ocasionalmente se contorcendo, ocasionalmente babando um fluido escuro e viscoso que cheira levemente a salmoura. Alguns dizem que ele clica suavemente à noite, um som oco que faz os compartimentos tremerem. O que ele foi um dia, agora é outra coisa, e decidiu ficar.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Simbiose</talentname.symbiosis>
-  <talentdescription.symbiosis>Enquanto estiver perto de amigos, eles ganham [stun]% de resistência a atordoamento e resistência a dano. Sempre que você cura um aliado, você também se cura em [healing]% desse valor.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Simbiose</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>Enquanto estiver perto de amigos, eles ganham [stun]% de resistência a atordoamento e resistência a dano. Sempre que você cura um aliado, você também se cura em [healing]% desse valor.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Secreção maravilhosa</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>Enquanto estiver perto de amigos, eles ganham [bleedResistance]% de resistência a sangramento e reduzem a duração da ferida por sangramento em [bleedWound]% .</talentdescription.feelsweirdman>
   <talentname.bestfriends>Melhores amigos para sempre</talentname.bestfriends>

@@ -2,8 +2,8 @@
 <infotexts language="Japanese" nowhitespace="false" translatedname="Japanese">
   <jobName.PlayerHuskJob>ハスク</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>腐った死体が古代のダイバーのスーツに詰め込まれ、エアロックを通り抜けて漂ってきたが、出て行くことを気にしなかった。 それが何を望んでいるのか、あるいは何も望んでいないのか、誰にもわからない。廊下に留まり、時折痙攣し、時折暗い粘性の液体を垂らす。それはわずかに塩水の匂いがする。誰かは、夜に静かにカチカチと音を立てると言う。それは空洞の音で、壁を揺らす。元々何であったのかは分からないが、今は何か別のものであり、留まることを決めた。</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>共生</talentname.symbiosis>
-  <talentdescription.symbiosis>友達の近くにいる間、[stun]%のスタン耐性とダメージ耐性を得る。味方を癒すたびに、自分自身もその量の[healing]%を癒す。</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>共生</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>友達の近くにいる間、[stun]%のスタン耐性とダメージ耐性を得る。味方を癒すたびに、自分自身もその量の[healing]%を癒す。</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>素晴らしい分泌物</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>友達の近くにいる間、[bleedResistance]%の出血耐性を得て、出血の持続時間を[bleedWound]%減少させる。</talentdescription.feelsweirdman>
   <talentname.bestfriends>永遠の親友</talentname.bestfriends>

@@ -2,8 +2,8 @@
 <infotexts language="Castilian Spanish" nowhitespace="false" translatedname="Castilian Spanish">
   <jobName.PlayerHuskJob>Cáscara</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Un cadáver en descomposición metido en un antiguo traje de buzo, flotó a través de la esclusa y nunca se molestó en irse. Nadie sabe lo que quiere, si es que quiere algo en absoluto. Se queda en los pasillos, a veces sacudiéndose, a veces goteando un fluido oscuro y viscoso que huele levemente a salmuera. Algunos dicen que hace clic suavemente por la noche, un sonido hueco que hace vibrar las estructuras. Lo que una vez fue, ahora es otra cosa, y ha decidido quedarse.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Simbiopatía</talentname.symbiosis>
-  <talentdescription.symbiosis>Mientras estén cerca de amigos, obtienen un [stun]% de resistencia a aturdimientos y resistencia al daño. Siempre que sanes a un aliado, también te sanas a ti mismo por [healing]% de esa cantidad.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Simbiopatía</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>Mientras estén cerca de amigos, obtienen un [stun]% de resistencia a aturdimientos y resistencia al daño. Siempre que sanes a un aliado, también te sanas a ti mismo por [healing]% de esa cantidad.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Secreción maravillosa</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>Mientras estén cerca de amigos, obtienen un [bleedResistance]% de resistencia a sangrado y reducen la duración de las heridas por sangrado en [bleedWound]% .</talentdescription.feelsweirdman>
   <talentname.bestfriends>Mejores amigos para siempre</talentname.bestfriends>

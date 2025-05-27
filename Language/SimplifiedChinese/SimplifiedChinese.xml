@@ -2,8 +2,8 @@
 <infotexts language="Simplified Chinese" nowhitespace="false" translatedname="Simplified Chinese">
   <jobName.PlayerHuskJob>尸体</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>一个腐烂的尸体被塞进了一套古老的潜水服中，它漂浮进了气闸，却从未打算离开。没有人知道它想要什么——如果它真的想要什么的话。它徘徊在走廊里，偶尔抽搐，偶尔流出一股暗淡的粘稠液体，散发着微弱的盐水味。有些人说它在夜里轻轻发出咔嗒声，那是一种空洞的声音，让隔板震动。无论它曾经是什么，现在它已是其他东西，并决定留下来。</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>共生</talentname.symbiosis>
-  <talentdescription.symbiosis>在朋友附近时，他们获得 [stun]% 的眩晕抗性和伤害抗性。每当你治疗一个盟友时，你也会为自己治疗 [healing]% 的生命值。</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>共生</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>在朋友附近时，他们获得 [stun]% 的眩晕抗性和伤害抗性。每当你治疗一个盟友时，你也会为自己治疗 [healing]% 的生命值。</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>奇妙分泌物</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>在朋友附近时，他们获得 [bleedResistance]% 的流血抗性，并将流血伤害的持续时间减少 [bleedWound]%。</talentdescription.feelsweirdman>
   <talentname.bestfriends>永远的好朋友</talentname.bestfriends>

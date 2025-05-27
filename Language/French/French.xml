@@ -2,8 +2,8 @@
 <infotexts language="French" nowhitespace="false" translatedname="French">
   <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Un cadavre en décomposition coincé dans un ancien costume de plongeur, il a dérivé dans l'airlock et n'a jamais daigné partir. Personne ne sait ce qu'il veut - s'il veut même quelque chose. Il erre dans les couloirs, parfois en convulsant, parfois bavant un fluide sombre et visqueux qui sent légèrement la saumure. Certains disent qu'il cliquette doucement la nuit, un son creux qui rattache les cloisons. Quoi qu'il était autrefois, maintenant c'est autre chose, et il a décidé de rester.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Symbiose</talentname.symbiosis>
-  <talentdescription.symbiosis>Lorsqu'il est près d'amis, il gagne [stun]% de résistance aux étourdissements et à la résistance aux dégâts. Chaque fois que vous guérissez un allié, vous vous guérissez également de [healing]% de ce montant.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Symbiose</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>Lorsqu'il est près d'amis, il gagne [stun]% de résistance aux étourdissements et à la résistance aux dégâts. Chaque fois que vous guérissez un allié, vous vous guérissez également de [healing]% de ce montant.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Sécrétion merveilleuse</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>Lorsqu'il est près d'amis, il gagne [bleedResistance]% de résistance aux saignements et réduit la durée des blessures saignantes de [bleedWound]%.</talentdescription.feelsweirdman>
   <talentname.bestfriends>Meilleurs amis pour toujours</talentname.bestfriends>

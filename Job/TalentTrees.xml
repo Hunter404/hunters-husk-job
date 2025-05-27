@@ -11,7 +11,7 @@
       </TalentOptions>
 
       <TalentOptions requiredtalents="2" maxchosentalents="7">
-        <TalentOption identifier="symbiosis" />
+        <TalentOption identifier="hh_symbiosis" />
         <TalentOption identifier="overcooked" />
         <TalentOption identifier="refeeding" />
         <TalentOption identifier="rupturedskin" />

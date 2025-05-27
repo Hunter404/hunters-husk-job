@@ -2,8 +2,8 @@
 <infotexts language="Traditional Chinese" nowhitespace="false" translatedname="Traditional Chinese">
   <jobName.PlayerHuskJob>殭屍</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>一具腐爛的屍體被塞進一套古老的潛水服，它漂浮進入了氣閘，卻從未打算離開。沒有人知道它想要什麼——即使它真的想要什麼。它徘徊在走廊上，偶爾抽搐，偶爾流出一種淡淡的鹽水氣味的深色粘稠液體。有人說它在夜裡輕聲咔嗒作響，那是一種空洞的聲音，讓艙壁顫動。無論它曾經是什麼，現在它已經變得不一樣，而它決定留下來。</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>共生</talentname.symbiosis>
-  <talentdescription.symbiosis>當靠近朋友時，他們獲得 [stun]% 的眩暈抵抗和傷害抵抗。每當你治療一名盟友時，你也會為自己治療該數量的 [healing]%。</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>共生</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>當靠近朋友時，他們獲得 [stun]% 的眩暈抵抗和傷害抵抗。每當你治療一名盟友時，你也會為自己治療該數量的 [healing]%。</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>奇怪的分泌物</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>當靠近朋友時，他們獲得 [bleedResistance]% 的流血抵抗並減少流血傷口的持續時間 [bleedWound]%。</talentdescription.feelsweirdman>
   <talentname.bestfriends>永遠的好朋友</talentname.bestfriends>

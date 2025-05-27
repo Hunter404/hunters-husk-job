@@ -2,8 +2,8 @@
 <infotexts language="Polish" nowhitespace="false" translatedname="Polish">
   <jobName.PlayerHuskJob>Husk</jobName.PlayerHuskJob>
   <jobdescription.PlayerHuskJob>Zgniłe ciało wciśnięte w starożytny skafander nurkowy, dryfowało przez właz i nigdy nie miało zamiaru odejść. Nikt nie wie, czego chce - jeśli w ogóle chce czegokolwiek. Włóczy się po korytarzach, czasami drgając, czasami śliniąc się ciemną, lepką cieczą, która lekko pachnie solanką. Niektórzy twierdzą, że w nocy cicho klika, co jest pustym dźwiękiem, który wstrząsa grodzami. Czymkolwiek było, teraz jest czymś innym i postanowiło zostać.</jobdescription.PlayerHuskJob>
-  <talentname.symbiosis>Symbioza</talentname.symbiosis>
-  <talentdescription.symbiosis>Będąc blisko przyjaciół, zyskują [stun]% odporności na ogłuszenie i odporności na obrażenia. Kiedy leczysz sojusznika, również leczy się za [healing]% tej kwoty.</talentdescription.symbiosis>
+  <talentname.hh_symbiosis>Symbioza</talentname.hh_symbiosis>
+  <talentdescription.hh_symbiosis>Będąc blisko przyjaciół, zyskują [stun]% odporności na ogłuszenie i odporności na obrażenia. Kiedy leczysz sojusznika, również leczy się za [healing]% tej kwoty.</talentdescription.hh_symbiosis>
   <talentname.feelsweirdman>Wspaniała sekrecja</talentname.feelsweirdman>
   <talentdescription.feelsweirdman>Będąc blisko przyjaciół, zyskują [bleedResistance]% odporności na krwawienie i skracają czas trwania ran krwawiących o [bleedWound]%.</talentdescription.feelsweirdman>
   <talentname.bestfriends>Najlepsi przyjaciele na zawsze</talentname.bestfriends>
