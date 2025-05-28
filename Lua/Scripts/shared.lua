@@ -5,15 +5,6 @@ local damageTable = {
     antidama2 = {
         Damage = 20,
     },
-    antibleeding1 = {
-        Damage = 1.5,
-    },
-    antibleeding2 = {
-        Damage = 5,
-    },
-    antibleeding3 = {
-        Damage = 40,
-    },
     pomegrenadeextract = {
         Damage = 0.32,
     },
@@ -30,10 +21,10 @@ local damageTable = {
         Damage = 2.5,
     },
     calyxanide = {
-        Damage = 180,
+        Damage = 40,
     },
     antipsychosis = {
-        Damage = 100,
+        Damage = 20,
     },
     antinarc = {
         Damage = 2,
@@ -50,30 +41,15 @@ local damageTable = {
     deliriumineantidote = {
         Damage = 20,
     },
-    antirad = {
-        Damage = 100,
-    },
     antiparalysis = {
-        Damage = 150,
-    },
-    elastin = {
-        Damage = 0,
+        Damage = 50,
     },
     opium = {
         Damage = 0.8,
     },
     antibiotics = {
-        Damage = 60,
+        Damage = 20,
     },
-    stabilozine = {
-        Damage = 0,
-    },
-    adrenaline = {
-        Damage = 8,
-    },
-    tonicliquid = {
-        Damage = 0.1,
-    }
 }
 
 HH.HusksAreMute = true
