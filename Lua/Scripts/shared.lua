@@ -429,15 +429,18 @@ Hook.Add("inventoryPutItem", "husk_inventoryPutItem", function(inventory, item, 
     end
 
 end)
---[[
-Hook.Patch(
-"Barotrauma.Character",
-"get_IsHuman",
-{ },
-function(instance, ptable)
 
-    return ptable.OriginalReturnValue or instance.Params.UseHumanAI
+if not HH.HuntersGenetics then
+    
+    Hook.Patch(
+    "Barotrauma.Character",
+    "get_IsHuman",
+    { },
+    function(instance, ptable)
 
-end,
-Hook.HookMethodType.After)
-]]
+        return ptable.OriginalReturnValue or instance.Params.UseHumanAI
+
+    end,
+    Hook.HookMethodType.After)
+
+end
