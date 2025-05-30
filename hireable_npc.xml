@@ -1,0 +1,62 @@
+<!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!--                                Outpost NPCs                                 -->
+<!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<Override>
+  <npcsets>
+    <npcset identifier="hh_hireable_npc">
+      <npc identifier="hh_husk1" job="PlayerHuskJob" tags="" spawnpointtags="" behavior="StayInHull" AllowDraggingIndefinitely="True">
+        <Character speciesname="Husk_player" gender="male" headspriteid="1" hairindex="1" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Tough">
+          <job name="PlayerHuskJob" identifier="PlayerHuskJob">
+            <skill identifier="electrical" level="25"/>
+            <skill identifier="mechanical" level="25"/>
+            <skill identifier="weapons" level="25"/>
+            <skill identifier="medical" level="25"/>
+            <skill identifier="helm" level="25"/>
+          </job>
+        </Character>
+        <ItemSet commonness="1">
+          <Item identifier="huskstinger" equip="false" outfit="false" />
+          <Item identifier="huskeggsbasic" equip="false" outfit="false" />
+          <Item identifier="idcard" equip="true" showpreview="false" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+        </ItemSet>
+      </npc>
+
+      <npc identifier="hh_husk2" job="PlayerHuskJob" tags="" spawnpointtags="" behavior="StayInHull" AllowDraggingIndefinitely="True">
+        <Character speciesname="Husk_player" gender="male" headspriteid="1" hairindex="1" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Tough">
+          <job name="PlayerHuskJob" identifier="PlayerHuskJob">
+            <skill identifier="electrical" level="25"/>
+            <skill identifier="mechanical" level="25"/>
+            <skill identifier="weapons" level="25"/>
+            <skill identifier="medical" level="25"/>
+            <skill identifier="helm" level="25"/>
+          </job>
+        </Character>
+        <ItemSet commonness="1">
+          <Item identifier="huskstinger" equip="false" outfit="false" />
+          <Item identifier="huskeggsbasic" equip="false" outfit="false" />
+          <Item identifier="idcard" equip="true" showpreview="false" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+        </ItemSet>
+      </npc>
+
+      <npc identifier="hh_husk3" job="PlayerHuskJob" tags="" spawnpointtags="" behavior="StayInHull" AllowDraggingIndefinitely="True">
+        <Character speciesname="Husk_player" gender="male" headspriteid="1" hairindex="1" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="255,255,255,255" haircolor="255,255,255,255" facialhaircolor="255,255,255,255" personality="Tough">
+          <job name="PlayerHuskJob" identifier="PlayerHuskJob">
+            <skill identifier="electrical" level="25"/>
+            <skill identifier="mechanical" level="25"/>
+            <skill identifier="weapons" level="25"/>
+            <skill identifier="medical" level="25"/>
+            <skill identifier="helm" level="25"/>
+          </job>
+        </Character>
+        <ItemSet commonness="1">
+          <Item identifier="huskstinger" equip="false" outfit="false" />
+          <Item identifier="huskeggsbasic" equip="false" outfit="false" />
+          <Item identifier="idcard" equip="true" showpreview="false" />
+          <Item identifier="headset" equip="true" showpreview="false" />
+        </ItemSet>
+      </npc>
+    </npcset>
+  </npcsets>
+</Override>
