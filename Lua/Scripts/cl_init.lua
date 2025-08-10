@@ -45,24 +45,27 @@ handleNetOperation("husk_removeFromCrew", findCharacterInfoByID, HH.RemoveFromCr
 
 local transformCounter = 0
 local nextTransformAt = 0
+local transformTime = 3 -- Seconds
 
 local function CheckTransformToProwler(character, deltaTime)
 
     if
-        not character.IsRagdolled or
         not character.HasTalent("prowler_transform")
     then
         return
     end
 
-    if not PlayerInput.KeyDown(InputType.Ragdoll) then
+    if
+        not character.IsRagdolled or
+        not PlayerInput.KeyDown(InputType.Ragdoll)
+    then
         transformCounter = 0
         return
     end
 
     transformCounter = transformCounter + deltaTime
 
-    if transformCounter < 10 then
+    if transformCounter < transformTime then
         return
     end
 
@@ -121,6 +124,8 @@ function CheckHuskJump(character, deltaTime)
     nextJumpAt = Timer.GetTime() + HH.Config.JumpCooldown
 
     HH:HuskJump(character)
+
+    jumpCounter = 0
 
 end
 
