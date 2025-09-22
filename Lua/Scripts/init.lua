@@ -3,7 +3,6 @@ dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/chat.lua")
 
 Networking.Receive("husk_transform", function(_, client) HH:HuskTransform(client) end)
 Networking.Receive("husk_jump", function(_, client) HH:HuskJump(client.Character) end)
-Networking.Receive("husk_pong", function(_, client) HH:Pong(client) end)
 
 Hook.Add("character.created", "husk_convertJobs", function(character)
 
@@ -28,7 +27,6 @@ Hook.Add("character.created", "husk_convertJobs", function(character)
             print("Respawning " .. character.Name .. " as " .. job.SpeciesName)
 
             HH:RespawnCharacter(character, job.SpeciesName)
-            HH:Ping(HH:GetCharacterClient(character))
 
             return
         elseif
@@ -40,7 +38,7 @@ Hook.Add("character.created", "husk_convertJobs", function(character)
             character.TeamID = 1
         end
 
-        HH:AddToCrew(character)
+        -- HH:AddToCrew(character)
         HH:SetCanSpeek(character, not HH.HusksAreMute)
 
     end, 1000)
@@ -102,6 +100,14 @@ end
 
 local function TryTransformToChimera(item, usingCharacter, targetCharacter, limb)
 
+    local function IsDeadOrRemoved(character)
+        return character == nil or character.Removed or character.IsDead
+    end
+
+    if IsDeadOrRemoved(usingCharacter) or IsDeadOrRemoved(targetCharacter) then
+        return false
+    end
+
     if not usingCharacter.HasTalent("chimera_transform") then
         return false
     end
@@ -127,47 +133,59 @@ local function TryTransformToChimera(item, usingCharacter, targetCharacter, limb
     local direction = true
 
     local function Spasm()
+        local function ApplyTorqueToCharacter(character, direction)
+            if IsDeadOrRemoved(character) then
+                return
+            end
+
+            if character == nil or character.AnimController == nil then
+                return
+            end
+
+            local torso = character.AnimController.GetLimb(LimbType.Torso)
+
+            torso.body.ApplyTorque(direction and 100 or -100)
+        end
+
         if not shouldSpasm then
             return
         end
 
-        if usingCharacter ~= nil or targetCharacter == nil then
-            local torso1 = usingCharacter.AnimController.GetLimb(LimbType.Torso)
-
-            torso1.body.ApplyTorque(direction and 100 or -100)
-        end
-
-        if targetCharacter ~= nil then
-            local torso2 = targetCharacter.AnimController.GetLimb(LimbType.Torso)
-
-            torso2.body.ApplyTorque(direction and 100 or -100)
-        end
+        ApplyTorqueToCharacter(usingCharacter, direction)
+        ApplyTorqueToCharacter(targetCharacter, direction)
 
         direction = not direction
 
         Timer.Wait(Spasm, 100)
     end
 
-    Timer.Wait(Spasm, 100)
+    local function Transform()
+        if IsDeadOrRemoved(usingCharacter) or IsDeadOrRemoved(targetCharacter) then
+            if usingCharacter ~= nil then
+                usingCharacter.IsForceRagdolled = false
+            end
 
-    Timer.Wait(function()
-        if usingCharacter ~= nil then
-            usingCharacter.IsForceRagdolled = false
+            if targetCharacter ~= nil then
+                targetCharacter.IsForceRagdolled = false
+            end
 
-            HH:RespawnCharacter(usingCharacter, "Husk_player_chimera")
+            return
         end
 
-        if targetCharacter ~= nil then
-            targetCharacter.CharacterHealth.ReduceAllAfflictionsOnAllLimbs(-100) -- Make the player explode
-            targetCharacter.IsForceRagdolled = false
-        end
+        HH:RespawnCharacter(usingCharacter, "Husk_player_chimera")
+
+        targetCharacter.CharacterHealth.ReduceAllAfflictionsOnAllLimbs(-100) -- Make the player explode
+        targetCharacter.IsForceRagdolled = false
 
         shouldSpasm = false
 
         if item ~= nil then
             Entity.Spawner.AddItemToRemoveQueue(item)
         end
-    end, 15000)
+    end
+
+    Timer.Wait(Spasm, 100)
+    Timer.Wait(Transform, 15000)
 
     return true
 
@@ -202,7 +220,7 @@ Hook.Add("chatMessage", "husk_commands", function(message, client)
 
 end)
 
-if not HH.HuntersGenetics then
+if not HH.HuntersGeneticsBase then
     Hook.Patch(
         "Barotrauma.AIObjectiveRescueAll",
         "IsValidTarget",
@@ -222,6 +240,6 @@ if not HH.HuntersGenetics then
     )
 else
     for k, _ in pairs(HH.Species) do
-        HH.HuntersGenetics.Character.DisableRescueForSpecies(k)
+        HH.HuntersGeneticsBase.Character.DisableRescueForSpecies(k)
     end
 end

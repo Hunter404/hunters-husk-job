@@ -1,18 +1,21 @@
+HH.Players = HH.Players or {}
+
 function HH:CanTransform(character)
+
+    local player = HH.Players[character.ID] or {}
+
     if
-        HH.Players == nil or
-        HH.Players[character.ID] == nil or
-        HH.Players[character.ID].NextTransformAt == nil
+        player == nil or
+        player[character.ID] == nil or
+        player[character.ID].NextTransformAt == nil
     then
         return true
     end
 
-    return HH.Players[character.ID].NextTransformAt < Timer.GetTime()
+    return player.NextTransformAt < Timer.GetTime()
 end
 
 function HH:SetNextTransformAt(character, delay)
-
-    HH.Players = HH.Players or {}
 
     local player = HH.Players[character.ID] or {}
 
@@ -104,9 +107,10 @@ local function TransferAfflictionsToLimbs(oldCharacter, newCharacter)
 
 end
 
+--[[
 function HH:RespawnCharacter(oldCharacter, speciesName, characterSpawnedCallback)
 
-    if HH.HuntersGenetics then
+    if HH.HuntersGeneticsBase then
         local settings = {
             SpeciesName = speciesName,
             AllowSkinColor = false,
@@ -114,7 +118,7 @@ function HH:RespawnCharacter(oldCharacter, speciesName, characterSpawnedCallback
             AllowBeard = false
         }
 
-        HH.HuntersGenetics.Character.RespawnCharacter(oldCharacter, settings, characterSpawnedCallback)
+        HH.HuntersGeneticsBase.Character.RespawnCharacter(oldCharacter, settings, characterSpawnedCallback)
         return
     end
 
@@ -155,6 +159,7 @@ function HH:RespawnCharacter(oldCharacter, speciesName, characterSpawnedCallback
     end)
 
 end
+]]
 
 function HH:SetCanSpeek(character, canSpeak)
 

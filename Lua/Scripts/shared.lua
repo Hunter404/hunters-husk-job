@@ -91,132 +91,6 @@ HH.Config = {
     JumpCooldown = 1,
 }
 
-function HH:IsServer()
-    return SERVER or not Game.IsMultiplayer
-end
-
-function HH:Ping(client)
-
-    if not client then
-        return
-    end
-
-    if not Game.IsMultiplayer then
-        return
-    end
-
-    -- Don't need to check if client has clientside lua on clients.
-    if CLIENT then
-        local netMsg = Networking.Start("husk_pong")
-        Networking.Send(netMsg, nil, DeliveryMethod.Reliable)
-    else
-        local netMsg = Networking.Start("husk_ping")
-        Networking.Send(netMsg, client.Connection, DeliveryMethod.Reliable)
-
-        Timer.Wait(function()
-            if not HH.HasClientsideLua or not HH.HasClientsideLua[client] then
-                HH:Message(client, "Conciousness", "No client-side Lua detected, don't submit a bug report, install client-side Lua.", ChatMessageType.Private)
-            end
-        end, 1000)
-    end
-
-end
-
-function HH:Pong(client)
-
-    -- We can't receive pongs in singleplayer.
-    if CLIENT and not Game.IsMultiplayer then
-        return
-    end
-
-    if CLIENT then
-        return
-    end
-    
-    HH.HasClientsideLua = HH.HasClientsideLua or {}
-    HH.HasClientsideLua[client] = true
-
-end
-
-function HH:GetCharacterClient(character)
-
-    for _, client in pairs(Client.ClientList) do
-        if client.Character == character then
-            return client
-        end
-    end
-
-end
-
-function HH:GetLocalClient()
-
-    for _, c in pairs(Client.ClientList) do
-        if c.IsOwner then
-            return c
-        end
-    end
-
-end
-
-function HH:AddToCrew(character)
-
-    if not character or character.IsDead then
-        return
-    end
-
-    if CLIENT then
-        if Game.IsMultiplayer then
-            local client = HH:GetLocalClient()
-
-            if client and character.TeamID ~= client.TeamID then
-                return
-            end
-        end
-
-        Game.GameSession.CrewManager.AddCharacter(character)
-    else
-        local netMsg = Networking.Start("husk_addToCrew")
-        netMsg.WriteUInt16(character.ID)
-        Networking.Send(netMsg, nil, DeliveryMethod.Reliable)
-
-        Game.GameSession.CrewManager.AddCharacter(character)
-    end
-
-end
-
-function HH:RemoveFromCrew(character)
-
-    if not HH:IsServer() then
-        Game.GameSession.CrewManager.RemoveCharacterInfo(character.Info, true, true)
-    elseif CLIENT then
-        Game.GameSession.CrewManager.RemoveCharacter(character, true, true)
-    else
-        local netMsg = Networking.Start("husk_removeFromCrew")
-
-        netMsg.WriteUInt16(character.Info.ID)
-        Networking.Send(netMsg, nil, DeliveryMethod.Reliable)
-
-        Game.GameSession.CrewManager.RemoveCharacter(character, true, true)
-    end
-
-end
-
-function HH:Message(client, sender, message, type)
-
-    if type == nil then
-        type = ChatMessageType.Private
-    end
-
-    local message = ChatMessage.Create(sender, message, type, nil, client, nil, nil)
-
-    if SERVER then
-        Game.SendDirectChatMessage(message, client)
-    else
-        Game.ChatBox.AddMessage(message)
-    end
-
-end
-
 local function TransformToFromProwler(character)
 
     if not character.HasTalent("prowler_transform") then
@@ -430,8 +304,8 @@ Hook.Add("inventoryPutItem", "husk_inventoryPutItem", function(inventory, item, 
 
 end)
 
-if not HH.HuntersGenetics then
-    
+if not HH.HuntersGeneticsBase then
+
     Hook.Patch(
     "Barotrauma.Character",
     "get_IsHuman",

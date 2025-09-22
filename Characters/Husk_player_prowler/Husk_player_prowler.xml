@@ -16,8 +16,8 @@
     UseHuskAppendage="False"
     NeedsAir="False"
     NeedsWater="False"
-    UseHumanAI="False"
-    CanSpeak="False"
+    UseHumanAI="True"
+    CanSpeak="True"
     ShowHealthBar="True"
     UseBossHealthBar="False"
     Noise="300"
@@ -52,7 +52,7 @@
     <sound File="Content/Characters/Husk_prowler/HUSKPROWLER_damage3.ogg" State="Damage" Range="1000" Volume="1" Tags="" />
     <sound File="Content/Characters/Husk_prowler/HUSKPROWLER_death1.ogg" State="Die" Range="1000" Volume="1" Tags="" />
     <sound File="Content/Characters/Husk_prowler/HUSKPROWLER_death2.ogg" State="Die" Range="1000" Volume="1" Tags="" />
-    <health minvitality="-100" Vitality="400" DoesBleed="True" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="10" BurnReduction="0.1" HealthRegenerationWhenEating="10" StunImmunity="False" PoisonImmunity="False" PoisonVulnerability="0.5" EmpVulnerability="0" ApplyAfflictionColors="False" Immunities="">
+    <health Vitality="400" minvitality="-100" DoesBleed="True" CrushDepth="Infinity" UseHealthWindow="True" BleedingReduction="10" BurnReduction="0.1" HealthRegenerationWhenEating="10" StunImmunity="False" PoisonImmunity="False" PoisonVulnerability="0.5" EmpVulnerability="0" ApplyAfflictionColors="False" Immunities="">
       <MedUISilhouette texture="Content/UI/Health/MedUI_Silhouette.png" columns="8" rows="2" sourcerect="0,0,1008,748" />
       <MedUIExtra texture="Content/UI/Health/MedUIExtra.png" columns="4" rows="4" sourcerect="0,0,1024,1024" />
       <Limb name="Head">
