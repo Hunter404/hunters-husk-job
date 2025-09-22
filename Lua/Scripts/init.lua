@@ -108,6 +108,10 @@ local function TryTransformToChimera(item, usingCharacter, targetCharacter, limb
         return false
     end
 
+    if targetCharacter == usingCharacter then
+        return false
+    end
+
     if not usingCharacter.HasTalent("chimera_transform") then
         return false
     end
