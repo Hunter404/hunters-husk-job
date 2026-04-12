@@ -18,5 +18,5 @@ if SERVER or not Game.IsMultiplayer then
 end
 
 if CLIENT then
-    dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/cl_transformAndJump.lua")
+    dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/cl_init.lua")
 end

@@ -39,7 +39,7 @@ Hook.Add("character.created", "husk_convertJobs", function(character)
         end
 
         -- HH:AddToCrew(character)
-        HH:SetCanSpeek(character, not HH.HusksAreMute)
+        HH:SetCanSpeak(character, not HH.HusksAreMute)
 
     end, 1000)
 
