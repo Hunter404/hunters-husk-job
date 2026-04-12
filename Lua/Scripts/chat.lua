@@ -3,19 +3,26 @@ HH.ChatCommands = {}
 HH.ChatCommands["!togglemutehusks"] = function (msgParts, client)
     if not CLIENT then -- Ignore permission in singleplayer
         if not client.CheckPermission(ClientPermissions.ConsoleCommands) then
+            HH:Message(client, "Server", "You do not have permission to use this command. Permission: ConsoleCommands", ChatMessageType.Private)
             return
         end
     end
 
     HH.HusksAreMute = not HH.HusksAreMute
 
-    for _, c in pairs(Client.ClientList) do
-        HH:Message(c, "Server", "Husks are mute: " .. (HH.HusksAreMute and "on." or "off."), ChatMessageType.Private)
+    if Game.IsMultiplayer then
+        for _, c in pairs(Client.ClientList) do
+            local msgWriter = Networking.Start("husk_mute_state")
+            msgWriter.WriteBoolean(HH.HusksAreMute)
+            Networking.Send(msgWriter, c.Connection)
+        end
+    else
+        HH:Message(nil, "Server", "Husks " .. (HH.HusksAreMute and "muted." or "unmuted."), ChatMessageType.Private)
     end
 
     for _, c in pairs(Character.CharacterList) do
         if HH:IsHusk(c) then
-            HH:SetCanSpeek(c, not HH.HusksAreMute)
+            HH:SetCanSpeak(c, not HH.HusksAreMute)
         end
     end
 

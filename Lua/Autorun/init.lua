@@ -2,7 +2,7 @@ HH = HH or {}
 
 HH.HuntersHusks = {
     Name = "Hunter's Husks",
-    Version = "1.0.52",
+    Version = "1.0.58",
     Path = table.pack(...)[1]
 }
 
@@ -18,5 +18,5 @@ if SERVER or not Game.IsMultiplayer then
 end
 
 if CLIENT then
-    dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/cl_transformAndJump.lua")
+    dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/cl_init.lua")
 end
