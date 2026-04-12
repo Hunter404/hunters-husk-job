@@ -17,7 +17,7 @@
     NeedsWater="False"
     NeedsAir="False"
     UseHumanAI="True"
-    CanSpeak="True"
+    CanSpeak="False"
     ShowHealthBar="True"
     UseBossHealthBar="False"
     Noise="300"
