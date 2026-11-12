@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Talents>
+  <!-- Fused flesh: Human_player_husk wearing any diving suit turns into Husk_player. Logic: Lua/Scripts/fusedflesh.lua -->
+  <Talent identifier="fusedflesh">
+    <Description tag="talentdescription.fusedflesh"></Description>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,5" sheetelementsize="128,128"/>
+  </Talent>
+
   <Talent identifier="hh_symbiosis">
     <Description tag="talentdescription.hh_symbiosis">
       <Replace tag="[stun]" value="15" color="gui.green"/>

@@ -2,7 +2,7 @@ HH = HH or {}
 
 HH.HuntersHusks = {
     Name = "Hunter's Husks",
-    Version = "1.0.58",
+    Version = "1.0.63",
     Path = table.pack(...)[1]
 }
 
@@ -11,12 +11,21 @@ if not HH.HuntersGeneticsBase then
     return
 end
 
-dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/shared.lua")
+require 'Scripts.shared'
 
 if SERVER or not Game.IsMultiplayer then
-    dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/init.lua")
+    require 'Scripts.utility'
+    require 'Scripts.chat'
+
+    require 'Scripts.init'
+    require 'Scripts.fusedflesh'
+    require 'Scripts.hireables'
 end
 
 if CLIENT then
-    dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/cl_init.lua")
+    require 'Scripts.utility'
+
+    require 'Scripts.cl_transformAndJump'
+    require 'Scripts.cl_toggleMuteHusks'
+    require 'Scripts.cl_humanHuskSkin'
 end

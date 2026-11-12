@@ -25,9 +25,8 @@ function HH:SetNextTransformAt(character, delay)
 
 end
 
-HH.SetCanSpeak = function(character, canSpeak)
+function HH:SetCanSpeak(character, canSpeak)
 
-    print(character, canSpeak)
     if character == nil then
         return
     end

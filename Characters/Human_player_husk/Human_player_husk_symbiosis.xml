@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  hh_humanhusksymbiosis: gives Human_player_husk the vanilla symbiosis husk appendage while it stays a
+  friendly crew member (Husk="False"). Stripped-down copy of vanilla "husksymbiosis" (Content/Afflictions.xml):
+  no karma change, no achievement, no "huskinfected" tag, no extra regen.
+  The grey body tint is vanilla huskinfection's (195,195,195 at up to 200 alpha). The husk face overlay is
+  switched on by Lua/Scripts/cl_humanHuskSkin.lua.
+
+  How it works (Characters/Health/Afflictions/AfflictionHusk.cs):
+  - Human_player_husk.xml applies this affliction constantly; strengthchange raises it past activethreshold (75).
+  - In the Active state AfflictionHusk.ActivateHusk() attaches the appendage, because the species has
+    UseHuskAppendage="True". It looks up <huskappendage affliction="hh_humanhusksymbiosis"> on the species named
+    by HuskedSpecies (= Human_player_husk itself), which points to the vanilla Huskappendagesymbiosis.xml.
+  - transitionthreshold / transformthresholdondeath are out of reach, so it never turns into a hostile husk.
+  - Afflictions are synced, so the appendage also shows on clients.
+  - Hidden from the health UI. Base copies afflictions on respawn, so a Husk_player made from a
+    Human_player_husk keeps it; there it only gives husk infection immunity (no appendage, UseHuskAppendage="False").
+
+  Shipped in both Hunter's Husk Job and Hunter's Genetics - Husks, hence <override>.
+-->
+<Afflictions>
+  <override>
+    <AfflictionHusk
+      identifier="hh_humanhusksymbiosis"
+      type="hh_humanhusksymbiosis"
+      targets="Human_player_husk"
+      huskedspeciesname="husk"
+      isbuff="true"
+      limbspecific="false"
+      indicatorlimb="Torso"
+      activationthreshold="0"
+      showiconthreshold="1000"
+      showinhealthscannerthreshold="1000"
+      treatmentthreshold="1000"
+      maxstrength="100"
+      causespeechimpediment="false"
+      sendmessages="false"
+      dormantthreshold="50"
+      activethreshold="75"
+      transitionthreshold="1000"
+      transformthresholdondeath="1000"
+      healableinmedicalclinic="false">
+      <Effect minstrength="0" maxstrength="100"
+        strengthchange="50"
+        minbodytint="195,195,195,0"
+        maxbodytint="195,195,195,200"
+        resistancefor="huskinfection" minresistance="1.0" maxresistance="1.0">
+        <StatusEffect target="Character" type="OnActive">
+          <ReduceAffliction identifier="huskinfection" amount="1000" />
+        </StatusEffect>
+      </Effect>
+      <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,640,128,128" color="60,107,195,255" origin="0,0"/>
+    </AfflictionHusk>
+  </override>
+</Afflictions>

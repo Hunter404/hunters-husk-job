@@ -9,6 +9,7 @@ HH.ChatCommands["!togglemutehusks"] = function (msgParts, client)
     end
 
     HH.HusksAreMute = not HH.HusksAreMute
+    print('Husks are now ' .. (HH.HusksAreMute and "muted." or "unmuted."))
 
     if Game.IsMultiplayer then
         for _, c in pairs(Client.ClientList) do
@@ -28,6 +29,7 @@ HH.ChatCommands["!togglemutehusks"] = function (msgParts, client)
 
     return true
 end
+
 --[[
 We can't override CanClimb in any way, shape or form so ignore for now.
 

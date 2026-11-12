@@ -2,7 +2,8 @@
 <TalentTrees>
   <TalentTree jobidentifier="PlayerHuskJob">
     <SubTree identifier="PHTree" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="fusedflesh" />
         <TalentOption identifier="guardianangel" />
         <TalentOption identifier="feelsweirdman" />
         <TalentOption identifier="bestfriends" />

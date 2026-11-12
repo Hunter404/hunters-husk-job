@@ -1,6 +1,3 @@
-dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/utility.lua")
-dofile(HH.HuntersHusks.Path .. "/Lua/Scripts/chat.lua")
-
 Networking.Receive("husk_transform", function(_, client) HH:HuskTransform(client) end)
 Networking.Receive("husk_jump", function(_, client) HH:HuskJump(client.Character) end)
 
@@ -26,7 +23,7 @@ Hook.Add("character.created", "husk_convertJobs", function(character)
         if character.SpeciesName == "Human" then
             print("Respawning " .. character.Name .. " as " .. job.SpeciesName)
 
-            HH:RespawnCharacter(character, job.SpeciesName)
+            HH:RespawnCharacter(character, job.SpeciesName, nil, job.AllowSkinColor, job.AllowHair, job.AllowBeard)
 
             return
         elseif

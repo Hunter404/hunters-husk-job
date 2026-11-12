@@ -23,27 +23,6 @@ local damageTable = {
     calyxanide = {
         Damage = 40,
     },
-    antipsychosis = {
-        Damage = 20,
-    },
-    antinarc = {
-        Damage = 2,
-    },
-    morbusineantidote = {
-        Damage = 10,
-    },
-    cyanideantidote = {
-        Damage = 10,
-    },
-    sufforinantidote = {
-        Damage = 20,
-    },
-    deliriumineantidote = {
-        Damage = 20,
-    },
-    antiparalysis = {
-        Damage = 50,
-    },
     opium = {
         Damage = 0.8,
     },
@@ -52,8 +31,17 @@ local damageTable = {
     },
 }
 
-HH.HusksAreMute = true
+HH.HusksAreMute = HH.HusksAreMute ~= nil and HH.HusksAreMute or true
+
 HH.Species = {
+    -- Default form of the Husk job: looks fully human (works with human clothing/skin mods).
+    -- Becomes Husk_player through the "fusedflesh" talent (see Scripts/fusedflesh.lua).
+    Human_player_husk = {
+        ApplyTreatmentModifier = damageTable,
+        CharacterInfoValues = {
+            AllowFace = true,
+        }
+    },
     Husk_player = {
         ApplyTreatmentModifier = damageTable,
         CharacterInfoValues = {
@@ -83,7 +71,11 @@ HH.Species = {
 }
 HH.Jobs = {
     PlayerHuskJob = {
-        SpeciesName = "Husk_player",
+        SpeciesName = "Human_player_husk",
+        -- Keep the skin color, hair and beard picked in character creation.
+        AllowSkinColor = true,
+        AllowHair = true,
+        AllowBeard = true,
     }
 }
 HH.Config = {
@@ -94,6 +86,11 @@ HH.Config = {
 local function TransformToFromProwler(character)
 
     if not character.HasTalent("prowler_transform") then
+        return false
+    end
+
+    -- Only a fully fused husk can shift into a prowler (a Human_player_husk needs Fused flesh first).
+    if character.SpeciesName ~= "Husk_player" and character.SpeciesName ~= "Husk_player_prowler" then
         return false
     end
 
@@ -215,6 +212,10 @@ function HH:HasValue(table, str)
 end
 
 function HH:IsHusk(character)
+    if character == nil or character.SpeciesName == nil then
+        return false
+    end
+    
     return HH.Species[character.SpeciesName.Value] ~= nil
 end
 
@@ -253,7 +254,7 @@ itemHooks[clownExosuit.Identifier] = {
         if
             not character or
             not character.HasTalent("exosuit_transform") or
-            not character.SpeciesName == "Husk_player"
+            character.SpeciesName ~= "Husk_player"
         then
             return
         end

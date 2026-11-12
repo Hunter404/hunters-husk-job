@@ -58,6 +58,7 @@
         <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
       </StatusEffect>
       <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" comparison="or">
+        <Conditional speciesname="Human_player_husk"/>
         <Conditional speciesname="Husk_player"/>
         <Conditional speciesname="Husk_player_prowler"/>
         <Conditional speciesname="Husk_player_exosuit"/>
@@ -66,6 +67,7 @@
         <Affliction identifier="internaldamage" strength="1" DivideByLimbCount="True" MultiplyByMaxVitality="True" />
       </StatusEffect>
       <StatusEffect tags="medical" type="OnFailure" target="UseTarget" comparison="or">
+        <Conditional speciesname="Human_player_husk"/>
         <Conditional speciesname="Husk_player"/>
         <Conditional speciesname="Husk_player_prowler"/>
         <Conditional speciesname="Husk_player_exosuit"/>

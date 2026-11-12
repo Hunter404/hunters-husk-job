@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Hunter's Husk Job" modversion="1.0.58" corepackage="False" steamworkshopid="3384404945" gameversion="1.11.5.0">
+<contentpackage name="Hunter's Husk Job" modversion="1.0.63" corepackage="False" steamworkshopid="3384404945" gameversion="1.13.4.0">
   <Jobs file="%ModDir%/Job/Jobs.xml" />
   <TalentTrees file="%ModDir%/Job/TalentTrees.xml" />
   <Afflictions file="%ModDir%/Job/TalentAfflictions.xml" />
   <Talents file="%ModDir%/Job/Talents.xml" />
+  <Afflictions file="%ModDir%/Characters/Human_player_husk/Human_player_husk_symbiosis.xml" />
+  <Character file="%ModDir%/Characters/Human_player_husk/Human_player_husk.xml" />
   <Character file="%ModDir%/Characters/Husk_player/Husk_player.xml" />
   <Character file="%ModDir%/Characters/Husk_player_exosuit/Husk_player_exosuit.xml" />
   <Character file="%ModDir%/Characters/Husk_player_prowler/Husk_player_prowler.xml" />
